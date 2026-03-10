@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的技术与生活——第十章  第三方库概览 | 锦鲤未离</title>
+  <title>Teknologi dan Kehidupan Saya - Bab 10 Ikhtisar Perpustakaan Pihak Ketiga | Koi Wei Li</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="/imgs/shortcut-icon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/public.css" />
@@ -17,7 +17,7 @@
 
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <script>
-    document.title = `我的技术与生活——第十章  第三方库概览`
+    document.title = `Teknologi dan Kehidupan Saya - Bab 10 Ikhtisar Perpustakaan Pihak Ketiga`
   </script>
 <meta name="generator" content="Hexo 6.1.0"></head>
 
@@ -147,13 +147,13 @@
   <div class="header-wrapper">
     <div class="header-left">
       <div class="header-search">
-        <input id="search-input" type="text" class="header-search--input" placeholder="请输入要检索的文章标题" />
+        <input id="search-input" type="text" class="header-search--input" placeholder="Masukkan judul artikel yang ingin dicari" />
         <span id="search-btn" class="header-search--icon"><i class="iconfont icon-sousuo"></i></span>
       </div>
       <div id="search-layer" class="header-search--layer hidden">
         <p class="title">
-          <span>以下是搜索内容：</span>
-          <span id="close-layer-btn">关闭</span>
+          <span>Hasil pencarian:</span>
+          <span id="close-layer-btn">Tutup</span>
         </p>
         <ul>
         </ul>
@@ -162,27 +162,27 @@
     <div class="header-right">
       <ul class="header-menu">
         <li>
-          <a href="http://example.com/">
+          <a href="/">
             <i class="header-menu--icon iconfont icon-shouye"></i>
-            <span class="header-menu--span">首页</span>
+            <span class="header-menu--span">Beranda</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/log">
+          <a href="/log">
             <i class="header-menu--icon iconfont icon-rizhi"></i>
-            <span class="header-menu--span">日志</span>
+            <span class="header-menu--span">Catatan</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/link">
+          <a href="/link">
             <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
-            <span class="header-menu--span">友情链接</span>
+            <span class="header-menu--span">Tautan</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/about">
+          <a href="/about">
             <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
-            <span class="header-menu--span">关于我</span>
+            <span class="header-menu--span">Tentang saya</span>
           </a>
         </li>
       </ul>
@@ -194,7 +194,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"⌊手机篇⌉ 将手机投屏到电脑","path":"posts/EDp-scrcpy/"},{"title":"⌊电脑篇⌉ 电脑声音无法出现","path":"posts/EDc-sound/"},{"title":"Hello World","path":"posts/3eeb/"},{"title":"小贴士~","path":"posts/tips/"},{"title":"数据库实训-Eclipse 连接 MySQL","path":"posts/EconnectM/"},{"title":"本篇用于测试样式","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"配置hadoop","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"第1章  Scala语言基础.","path":"posts/spark_01/"},{"title":"第3章  Spark RDD弹性分布式数据集","path":"posts/spark_03/"},{"title":"第4章  Spark SQL结构化数据文件处理","path":"posts/spark_04/"},{"title":"第5章  HBase 分布式数据库","path":"posts/spark_05/"},{"title":"第6章  Kafka分布式发布订阅消息系统","path":"posts/spark_06/"},{"title":"第7章  Spark Streaming","path":"posts/spark_07/"},{"title":"第8章  Spark MLlib机器学习算法库","path":"posts/spark_08/"},{"title":"第1章  时间序列分析","path":"posts/Time-Series_Analysis_ALL/"},{"title":"第1章  深度卷积神经网络分析","path":"posts/DCNN_ALL/"},{"title":"考试---可视化","path":"posts/考试---可视化/"},{"title":"第三章  程序流程控制[未完成]","path":"posts/matlab03/"},{"title":"应用篇-第一章  图形对象句柄[未完成]","path":"posts/matlab09/"},{"title":"第五章  数据分析与多项式计算[未完成]","path":"posts/matlab05/"},{"title":"应用篇-第二章  图形对用户界面设计[未完成]","path":"posts/matlabyyp02/"},{"title":"第四章 绘图[未完成]","path":"posts/matlab04/"},{"title":"程序流程控制","path":"posts/java-cxlckz/"},{"title":"消息, 继承与多态","path":"posts/java-xxjcydt/"},{"title":"第六章  数组","path":"posts/java-sz/"},{"title":"键盘输值","path":"posts/java-wjyl/"},{"title":"封装机制与访问控制","path":"posts/java-fzjzyfwkz/"},{"title":"第四章  类与对象","path":"posts/java-lydx/"},{"title":"递归调用","path":"posts/java-dgdy/"},{"title":"『SQL Server』第一章  数据库应用系统开发方法","path":"posts/sqlserver01/"},{"title":"『SQL Server』第七章  高级数据库查询","path":"posts/sqlserver07/"},{"title":"『SQL Server』第三章  系统设计","path":"posts/sqlserver03/"},{"title":"『SQL Server』第九章  安全管理","path":"posts/sqlserver09/"},{"title":"『SQL Server』第二章  需求分析","path":"posts/sqlserver02/"},{"title":"『SQL Server』第五章  UML与DBAS","path":"posts/sqlserver05/"},{"title":"『SQL Server』第八章  数据库后台编程技术","path":"posts/sqlserver08/"},{"title":"『SQL Server』第六章  数据库及其对象.md","path":"posts/sqlserver06/"},{"title":"『SQL Server』第十一章  故障管理","path":"posts/sqlserver11/"},{"title":"『SQL Server』第十三章  大规模数据库架构","path":"posts/sqlserver13/"},{"title":"『SQL Server』第十四章  数据仓库与数据挖掘","path":"posts/sqlserver14/"},{"title":"『SQL Server』第十二章  备份与恢复数据库","path":"posts/sqlserver12/"},{"title":"『SQL Server』第十章  数据库运行管理与维护","path":"posts/sqlserver10/"},{"title":"『SQL Server』第四章  应用系统功能设计","path":"posts/sqlserver04/"},{"title":"『SQL Server』考三","path":"posts/sqlserver3/"},{"title":"『SQL Server』考二","path":"posts/sqlserver2/"},{"title":"三级考试(数据库篇)错题整理(选择题, 填空题篇)","path":"posts/sqlservers/"},{"title":"第一章  操作基础","path":"posts/linux01/"},{"title":"第二章  进程管理","path":"posts/linux02/"},{"title":"第三章  存储和逻辑卷管理","path":"posts/linux03/"},{"title":"第四章  用户和组管理","path":"posts/linux04/"},{"title":"第六章  用户管理","path":"posts/linux05/"},{"title":"第六章  网络基础","path":"posts/linux06/"},{"title":"安全管理","path":"posts/linux07/"},{"title":"第十章 Shell 脚本","path":"posts/linux08/"},{"title":"第一章  操作基础","path":"posts/linuxlianxizuoye/"},{"title":"第八章  计算生态","path":"posts/python08/"},{"title":"第九章  标准库概览","path":"posts/python09/"},{"title":"第七章  文件和数据格式化","path":"posts/python07/"},{"title":"第十章  第三方库概览","path":"posts/python10/"},{"title":"第一章  程序基本结构","path":"posts/py01/"},{"title":"第一章  程序基本结构","path":"posts/py01/"},{"title":"第三章  组合数据类型","path":"posts/py03/"},{"title":"第某章  random 库","path":"posts/pythonrdom/"},{"title":"第某章  PIL 库","path":"posts/py0nnnpillow/"},{"title":"第某章  turtle 库","path":"posts/py0nnn/"},{"title":"第二章  函数","path":"posts/py02/"},{"title":"第五章  文件操作","path":"posts/python05/"},{"title":"第六章  第三方生态","path":"posts/python06/"},{"title":"第一章  排序","path":"posts/dsa04/"},{"title":"第一章  线性表","path":"posts/dsa01/"},{"title":"第二章  查找","path":"posts/dsa05/"},{"title":"第三章  图","path":"posts/dsa03/"},{"title":"第二章  树和二叉树","path":"posts/dsa02/"},{"title":"绪论  聊聊需要的软件","path":"posts/hadoop00/"},{"title":"第一章  分布式文件系统（HDFS）概述","path":"posts/hadoop01/"},{"title":"第二章  磁盘I/O操作","path":"posts/hadoop02/"},{"title":"第三章  MapReduce基础","path":"posts/hadoop03/"},{"title":"第一章  数据计算（NumPy）","path":"posts/DPaA01/"},{"title":"第二章  数据分析（Pandas）","path":"posts/DPaA02/"},{"title":"第三章  数据可视化（Matplotlib）","path":"posts/DPaA03/"},{"title":"第四章  数据预处理","path":"posts/DPaA04/"},{"title":"第 4 章  抽样推断","path":"posts/as04/"},{"title":"第一章 待补充...","path":"posts/DM01/"}]`)
+  const posts = JSON.parse(`[{"title":"⌊Ponsel⌉ Cerminkan layar ponsel ke komputer","path":"posts/EDp-scrcpy/"},{"title":"⌊Bab Komputer⌉ Suara komputer tidak dapat muncul","path":"posts/EDc-sound/"},{"title":"Halo Dunia","path":"posts/3eeb/"},{"title":"Kiat~","path":"posts/tips/"},{"title":"Pelatihan database-Koneksi Eclipse ke MySQL","path":"posts/EconnectM/"},{"title":"Artikel ini digunakan untuk menguji gaya","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"penempatan hadoop","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"Bab 1 Dasar-dasar bahasa Scala.","path":"posts/spark_01/"},{"title":"Bab 3 Kumpulan Data Terdistribusi Elastis Spark RDD","path":"posts/spark_03/"},{"title":"Bab 4 Pemrosesan File Data Terstruktur Spark SQL","path":"posts/spark_04/"},{"title":"Bab 5 Basis Data Terdistribusi HBase","path":"posts/spark_05/"},{"title":"Bab 6 Sistem Pesan Publikasikan-Berlangganan Terdistribusi Kafka","path":"posts/spark_06/"},{"title":"Bab 7 Percikan Streaming","path":"posts/spark_07/"},{"title":"Bab 8 Perpustakaan Algoritma Pembelajaran Mesin Spark MLlib","path":"posts/spark_08/"},{"title":"Bab 1 Analisis Rangkaian Waktu","path":"posts/Time-Series_Analysis_ALL/"},{"title":"Bab 1 Analisis Jaringan Syaraf Konvolusional Mendalam","path":"posts/DCNN_ALL/"},{"title":"Ujian---Visualisasi","path":"posts/考试---可视化/"},{"title":"Bab 3 Kontrol Aliran Program [Belum Selesai]","path":"posts/matlab03/"},{"title":"Aplikasi - Bab 1 Pegangan Objek Grafis [Belum Selesai]","path":"posts/matlab09/"},{"title":"Bab 5 Analisis Data dan Perhitungan Polinomial [Belum Selesai]","path":"posts/matlab05/"},{"title":"Aplikasi - Bab 2 Desain Grafis dan Antarmuka Pengguna [Belum Selesai]","path":"posts/matlabyyp02/"},{"title":"Bab 4 Menggambar [Belum Selesai]","path":"posts/matlab04/"},{"title":"pengendalian aliran program","path":"posts/java-cxlckz/"},{"title":"Pesan, warisan dan polimorfisme","path":"posts/java-xxjcydt/"},{"title":"Bab 6 Pengaturan","path":"posts/java-sz/"},{"title":"Masukan papan ketik","path":"posts/java-wjyl/"},{"title":"Mekanisme enkapsulasi dan kontrol akses","path":"posts/java-fzjzyfwkz/"},{"title":"Bab 4 Kelas dan Objek","path":"posts/java-lydx/"},{"title":"panggilan rekursif","path":"posts/java-dgdy/"},{"title":"\"SQL Server\" Bab 1 Metode Pengembangan Sistem Aplikasi Basis Data","path":"posts/sqlserver01/"},{"title":"\"SQL Server\" Bab 7 Kueri Basis Data Tingkat Lanjut","path":"posts/sqlserver07/"},{"title":"\"SQL Server\" Bab 3 Desain Sistem","path":"posts/sqlserver03/"},{"title":"\"SQL Server\" Bab 9 Manajemen Keamanan","path":"posts/sqlserver09/"},{"title":"Analisis Persyaratan \"SQL Server\" Bab 2","path":"posts/sqlserver02/"},{"title":"\"SQL Server\" Bab 5 UML dan DBAS","path":"posts/sqlserver05/"},{"title":"\"SQL Server\" Bab 8 Teknologi Pemrograman Backend Basis Data","path":"posts/sqlserver08/"},{"title":"Database \"SQL Server\" Bab 6 dan Objeknya.md","path":"posts/sqlserver06/"},{"title":"\"SQL Server\" Bab 11 Manajemen Kesalahan","path":"posts/sqlserver11/"},{"title":"\"SQL Server\" Bab 13 Arsitektur Basis Data Skala Besar","path":"posts/sqlserver13/"},{"title":"\"SQL Server\" Bab 14 Pergudangan Data dan Penambangan Data","path":"posts/sqlserver14/"},{"title":"\"SQL Server\" Bab 12 Mencadangkan dan memulihkan database","path":"posts/sqlserver12/"},{"title":"\"SQL Server\" Bab 10 Manajemen dan Pemeliharaan Operasi Basis Data","path":"posts/sqlserver10/"},{"title":"\"SQL Server\" Bab 4 Desain Fungsi Sistem Aplikasi","path":"posts/sqlserver04/"},{"title":"Tes \"SQL Server\" ketiga","path":"posts/sqlserver3/"},{"title":"Ujian \"SQL Server\" 2","path":"posts/sqlserver2/"},{"title":"Memilah soal yang salah pada ujian Level 3 (bagian database) (soal pilihan ganda, soal isian yang kosong)","path":"posts/sqlservers/"},{"title":"Bab 1 Dasar-dasar Pengoperasian","path":"posts/linux01/"},{"title":"Bab 2 Manajemen Proses","path":"posts/linux02/"},{"title":"Bab 3 Penyimpanan dan Manajemen Volume Logis","path":"posts/linux03/"},{"title":"Bab 4 Manajemen Pengguna dan Grup","path":"posts/linux04/"},{"title":"Bab 6 Manajemen Pengguna","path":"posts/linux05/"},{"title":"Bab 6 Dasar-Dasar Jaringan","path":"posts/linux06/"},{"title":"Manajemen keamanan","path":"posts/linux07/"},{"title":"Bab 10 Skrip Shell","path":"posts/linux08/"},{"title":"Bab 1 Dasar-dasar Pengoperasian","path":"posts/linuxlianxizuoye/"},{"title":"Bab 8 Ekologi Komputasi","path":"posts/python08/"},{"title":"Bab 9 Ikhtisar Perpustakaan Standar","path":"posts/python09/"},{"title":"Bab 7 Pemformatan File dan Data","path":"posts/python07/"},{"title":"Bab 10 Ikhtisar Perpustakaan Pihak Ketiga","path":"posts/python10/"},{"title":"Bab 1 Struktur Dasar Program","path":"posts/py01/"},{"title":"Bab 1 Struktur Dasar Program","path":"posts/py01/"},{"title":"Bab 3 Tipe Data Gabungan","path":"posts/py03/"},{"title":"Bab 1 perpustakaan acak","path":"posts/pythonrdom/"},{"title":"Bab 1 Perpustakaan PIL","path":"posts/py0nnnpillow/"},{"title":"Bab 1 perpustakaan penyu","path":"posts/py0nnn/"},{"title":"Bab 2 Fungsi","path":"posts/py02/"},{"title":"Bab 5 Operasi File","path":"posts/python05/"},{"title":"Bab 6 Ekologi Pihak Ketiga","path":"posts/python06/"},{"title":"Bab 1 Penyortiran","path":"posts/dsa04/"},{"title":"Bab 1 Tabel Linier","path":"posts/dsa01/"},{"title":"Bab 2 Pencarian","path":"posts/dsa05/"},{"title":"Bab 3 Gambar","path":"posts/dsa03/"},{"title":"Bab 2 Pohon dan Pohon Biner","path":"posts/dsa02/"},{"title":"Pendahuluan Mari kita bicara tentang perangkat lunak yang kita butuhkan","path":"posts/hadoop00/"},{"title":"Bab 1 Ikhtisar Sistem File Terdistribusi (HDFS)","path":"posts/hadoop01/"},{"title":"Bab 2 Operasi I/O Disk","path":"posts/hadoop02/"},{"title":"Bab 3 Dasar-dasar MapReduce","path":"posts/hadoop03/"},{"title":"Bab 1 Komputasi Data (NumPy)","path":"posts/DPaA01/"},{"title":"Bab 2 Analisis Data (Panda)","path":"posts/DPaA02/"},{"title":"Bab 3 Visualisasi Data (Matplotlib)","path":"posts/DPaA03/"},{"title":"Bab 4 Pemrosesan Awal Data","path":"posts/DPaA04/"},{"title":"Bab 4 Inferensi Pengambilan Sampel","path":"posts/as04/"},{"title":"Bab 1 Akan ditambahkan...","path":"posts/DM01/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -225,7 +225,7 @@
       `
     })
     if (html.trim () === '') {
-      html += '<p class="empty">没有搜索到内容</p>'
+      html += '<p class="empty">Tidak ada hasil pencarian</p>'
     }
     layer.querySelector('ul').innerHTML = html
     layer.classList.remove('hidden')
@@ -273,20 +273,20 @@
   }
 }
       </style>
-      <img src="/imgs/avatar.jpg"" class="main-left--avatar" />
+      <img src="/imgs/avatar.jpg" class="main-left--avatar" />
       <div class="main-left--intro">
         <p class="main-left--name">KoiNL.</p>
         <div class="main-left--tags">
-          <span class="main-left--tag">中二</span>
-          <span class="main-left--tag">宅</span>
+          <span class="main-left--tag">chuunibyou</span>
+          <span class="main-left--tag">rumahan</span>
         </div>
       </div>
     </div>
   
     <div>
       <div class="main-left--motto">
-        <p>“锦鲤握运，未离我韵”</p>
-        <p>“愿好运常在”</p>
+        <p>"Koi memegang keberuntungan, sajaknya tidak pernah meninggalkanku"</p>
+        <p>"Semoga keberuntungan selalu menyertaimu"</p>
       </div>
       <div class="main-left--github">
         <span class="line"></span>
@@ -297,19 +297,19 @@
         <a href="/categories">
           <div>
             <span>16</span>
-            <span>分类</span>
+            <span>Kategori</span>
           </div>
         </a>
         <a href="/tags">
           <div>
             <span>0</span>
-            <span>标签</span>
+            <span>Label</span>
           </div>
         </a>
         <a href="/archives">
           <div>
             <span>14 </span>
-            <span>归档</span>
+            <span>Arsip</span>
           </div>
         </a>
       </div>
@@ -321,35 +321,35 @@
       
         <li>
           <a href="/">
-            <span class="header-menu--span">小站首页</span>
+            <span class="header-menu--span">Beranda situs</span>
             <i class="header-menu--icon iconfont icon-shouye"></i>
           </a>
         </li>
       
         <li>
           <a href="/log">
-            <span class="header-menu--span">个人日志</span>
+            <span class="header-menu--span">Catatan pribadi</span>
             <i class="header-menu--icon iconfont icon-rizhi"></i>
           </a>
         </li>
       
         <li>
           <a href="/link">
-            <span class="header-menu--span">友情链接</span>
+            <span class="header-menu--span">Tautan</span>
             <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
           </a>
         </li>
       
         <li>
           <a href="/about">
-            <span class="header-menu--span">关于自己</span>
+            <span class="header-menu--span">Tentang saya</span>
             <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
           </a>
         </li>
       
         <li>
           <a href="/tools">
-            <span class="header-menu--span">我的工具</span>
+            <span class="header-menu--span">Alat saya</span>
             <i class="header-menu--icon iconfont icon-gongju"></i>
           </a>
         </li>
@@ -360,23 +360,23 @@
   <div class="main-left--block">
     <div class="main-left--site">
       <h5 class="main-left--title">
-        <span>站点信息</span>
+        <span>Informasi situs</span>
         <i class="iconfont icon-zhandian"></i>
       </h5>
       <p class="main-left--subtitle">
-        <span>文章数目：</span>
-        <span>83 篇</span>
+        <span>Jumlah artikel:</span>
+        <span>83 artikel</span>
       </p>
       <p class="main-left--subtitle">
-        <span>最近动态：</span>
-        <span>4周前</span>
+        <span>Berita terbaru:</span>
+        <span>4 minggu yang lalu</span>
       </p>
       <p class="main-left--subtitle">
-        <span>上线时间：</span>
-        <span>471天</span>
+        <span>Waktu online:</span>
+        <span>471 hari</span>
       </p>
       <p class="main-left--subtitle">
-        <span>当前版本：</span>
+        <span>Versi saat ini:</span>
         <span>v3.0.0</span>
       </p>
     </div>
@@ -409,45 +409,45 @@ pre:active {
 
 <div class="article-container">
   <div class="article">
-    <h1 class="article-title">第十章  第三方库概览</h1>
+    <h1 class="article-title">Bab 10 Ikhtisar Perpustakaan Pihak Ketiga</h1>
     <div class="article-info">
       <div class="article-info--item">
         <div class="article-info--info">
           
           <div class="article-info--categories">
-            <span>分类：</span>
+            <span>Kategori:</span>
             <a class="category-link" href="/categories/Python/">Python</a>
           </div>
           
           
           <div class="article-info--tags">
-            <span>标签：</span>
+            <span>Label:</span>
             
           </div>
           
-          <p class="article-info--date">日期：2022-07-26 20:19:47</p>
+          <p class="article-info--date">Tanggal: 26-07-2022 20:19:47</p>
         </div>
         <img src="/imgs/default-cover.webp" alt="" class="article-cover">
       </div>
     </div>
     <article class="article-content">
-      <p>10.1Python第三方库的获取和安装<br>Python第三方库依照安装方式灵活性和难易程序有3个方法，这三个方法是: pip工具安装、自定义安装、文件安装。<br>10.1.1pip工具安装<br>最常用且最高效的Python第三方库安装方式是采用pip工具安装。pip是Python官方提供并维护的在线第三方库安装工具。对于Python3.x版本环境，可以采用 pip3命令代替pip命令专为Python3.x版本安装第三方库。<br>使用pip安装第三方库需要联网。<br>安装语法:<br>pip install库名<br>10.1.2自定义安装<br>自定义安装指按照第三方库提供的步骤和方式安装。第三方库都有主页用于维护库的代码和文档。科学计算用的 numpy 的官方主页是:<a target="_blank" rel="noopener" href="http://numpy.org.浏览网页找到下载链接.http//scipy.org/scipylib/download.html%E3%80%82%E8%BF%9B%E8%80%8C%E6%A0%B9%E6%8D%AE%E6%8F%90%E7%A4%BA%E6%AD%A5%E9%AA%A4%E5%AE%89%E8%A3%85%E3%80%82">http://numpy.org。浏览网页找到下载链接。http://scipy.org/scipylib/download.html。进而根据提示步骤安装。</a><br>自定义安装一般适用于在pip中尚无登记或安装失败的第三方库。<br>10.1.3文件安装<br>由于Python某些第三方库仅提供源代码，通过pip下载文件后无法在 Windows系统编译安装，会导致第三方库安装失败。在 Windows平台下所遇到无法安装第三方库的问题大多属于这类<br>10.1.4pip工具使用<br>除了进行第三方库安装之外，pip工具能对第三方库进行基本的维护。执行pip-h 将列出pip 常用的子命令。<br>pip支持安装(install&gt;、下载( download)、卸载( uninstall&gt;、列表(list)、查看(show)、查找(search）等一系列安装和维护子命令。<br>pip 的uninstall子命令可以卸载一个已经安装的第三方库。<br>10.2PyInstaller库概述<br>PyIlnstaller是一个十分有用的 Python第三方库，它能够在 Windows、Linux、MacOS等操作系统下将Python源文件打包、变成直接可运行的可执行文件。<br>通过对源文件打包，Python程序可以在没有安装Python 的环境中运行，也可以作为一个独立文件方便传递和管理。PyInstaller需要在命令行下用pip工具安装。<br>pip install Pylnstaller<br>pip指令可以将PyInstaller 库自动安装到Python 解释器目录，与pip或pip3命令路径相同，可以直接在命令行调用。<br>Pylnstaller针对不同操作系统打包生成的可执行文件都不同。<br>10.3PyInstaller库与程序打包<br>使用PyInstaller库对Python源文件打包十分简单。语法结构:<br>Pyinstaller源文件名<br>执行完毕后，源文件所在目录将生成dist和 build两个文件夹。其中，build目录是PyInstaller存储临时文件的目录，可以安全删除。最终的打包程序在dist内部与源文件同中的目录中。目录中其他文件是可执行文件的动态链接库。<br>可以通过-F参数对Python源文件生成一个独立的可执行文件。<br>pyinstaller -F a.py<br>执行后在dist目录中出了a.exe文件，没有任何依赖库，执行它即可运行程序。使用Pylnstaller库需要注意以下问题:<br>文件路径不能出现空格和英文句号(.)源文件必须是UTF_8编码，暂时不支持其他编码类型。<br>pyinstaller命令的常用参数<br>-h、–help：查看帮助<br>–clean：清理打包过程中的临时文件<br>-D，–onedir：默认值，生成dist目录<br>-F，–onefile：在 dist文件夹中只能生成独立的打包文件<br>-i&lt;图标文件名.ico&gt;：指定打包程序使用的图标icon文件<br>pyinstaller命令不需要在Python源文件中增加代码，只需要通过命令进行打包即可。</p>
-<p>10.4jieba库概述<br>由于中文文本的单词不是通过空格或者标点符号分割,中文及类似语言存在一个重要的“分词”问题。<br>jieba是Python 中一个重要的第三方中文分词函数库，能够将一段中文文本分割成中文词语的序列。jieba 库需要通过pip指令安装。<br>pip installer jieba<br>jieba 库的分词原理是利用一个中文词库，将待分词的内容与分词词库进行比对，通过图结构和动态规划方法找到最大概率的词组。除了分词，jieba还提供增加自定义中文单词的功能。<br>jieba库支持三种分词模式:精确模式，将句子最精确地切开，适合文本分析;全模式，把句子中所有可以成词的词语都扫描出来,速度非常快,但是不能解决歧义;搜索引擎模式，在精确模式基础上，对长词再次切分，提高召回率，适合用于搜索引擎分词。<br>对中文分词来说，jieba只需要一行代码。(英文文本不存在分词问题)<br>10.5jieba库与中文分词<br>jieba 库主要提供中文分词功能，可以辅助自定义分词词典。<br>jieba库常用的分词函数<br>jieba.lcut(s)：精确模式，返回一个列表类型<br>jieba.lcut(s,cut_all&#x3D;True)：全模式，返回一个列表类型<br>jieba.lcut_for_search(s)：搜索引擎模式，返回一个列表类型<br>jieba.add_word(w)：向分词字典中增加新词w<br>jieba.lcut(s)是最常用的中文分词函数，用于精确模式，即将字符串分割成等量的中文词组，返回结果是列表类型。<br>jieba.lcut(s,cut_all&#x3D;True)用于全模式，即将字符串的所有分词可能均列出来，返回结果是列表类型，冗余性最大。<br>相比精确模式，全模式会找到所有分词可能，比如“计算机”被分词为3个可能词语“计算”、“计算机”、“算机”。<br>Jieba.lcut_for_search(s)返回搜索引掌候式，首先执行精确模式，在对其中长词进一步切分获得最终结果。<br>相比精确模式，其中长词“计算机”被再次分词成“计算”、“算机”、“计算机”三个词语，存在一定冗余。<br>提示:精确模式因为不产生冗余，最为常用。<br>搜索引擎模式更倾向于寻找短诃语，这种方式具有一定冗余度，但相比全模式较少。<br>3种分词模式如何选择?看需求<br>如果希望对文本准确分词，不产生冗余，只能选择jieba.Icut(s)函数<br>希望对文本分词更准确，不漏掉仕何可能的分词结果，选用全模式。没想好怎么用，可以使用搜索引擎模式。<br>jieba.add word()函数，用来向jieba词库增加新的单词。<br>10.6wordcloud 库概述<br>数据展示的方式多种多样，传统的统计图尽管很“科学”，但略显古板。尤其对于文本来说，更加直观、带有一定艺术感的展示效果需要很大，对于这类需求，词云特有的展示方式深得人心。<br>词云以词语为基本单元,根据其在文本中出现的频率设计不同大小以形成视觉上的不同效果，形成“关键云层”或“关键词渲染”，从而使用读者只要“一瞥”即可领略文本的主旨。这种展示方式已经成为文本展示的样板。<br>Wordcloud库是专门用于根据文本生成词云的Python第三方库，十分常用且有趣。提示:词去<br>能够将文本转变成词云，也是一种必备能力。<br>有关wordcloud库的详细介绍可访问<a target="_blank" rel="noopener" href="https://amueller.github.io/word">https://amueller.github.io/word</a> cloud&#x2F;安装wordcloud库在 Windows的cmd命令行使用如下:<br>10.7wordcloud库与可视化词云<br>在生成词云时，wordcloud默认会以空格或标点分隔符对目标文本进行分词处理。对于<br>中文文本，分词处理需要由用户来完成。一般步骤是先将文本分词处理，然后以空格拼接，再调用wordcloud库函数,处理中文时还需要指定中文字体。例如,选择了微软雅黑( msyh.ttc）<br>作为显示效果,需要将该字体文件与代码存放在同一目录下或在字体文件名前加上完整路径。</p>
+      <p>10.1 Mendapatkan dan menginstal perpustakaan pihak ketiga Python<br>Ada tiga metode untuk pustaka pihak ketiga Python sesuai dengan fleksibilitas metode instalasi dan kesulitan program. Ketiga metode ini adalah: instalasi alat pip, instalasi khusus, dan instalasi file.<br>Instalasi alat 10.1.1pip<br>Cara yang paling umum digunakan dan efisien untuk menginstal pustaka pihak ketiga Python adalah dengan menggunakan alat pip. pip adalah alat instalasi perpustakaan pihak ketiga online yang secara resmi disediakan dan dikelola oleh Python. Untuk lingkungan versi Python3.x, Anda dapat menggunakan perintah pip3 alih-alih perintah pip untuk menginstal pustaka pihak ketiga khusus untuk versi Python3.x.<br>Menginstal perpustakaan pihak ketiga menggunakan pip memerlukan koneksi Internet.<br>Sintaks instalasi:<br>pip instal nama perpustakaan<br>10.1.2 Instalasi khusus<br>Instalasi khusus mengacu pada instalasi sesuai dengan langkah dan metode yang disediakan oleh perpustakaan pihak ketiga. Perpustakaan pihak ketiga memiliki beranda untuk memelihara kode dan dokumentasi perpustakaan. Beranda resmi numpy untuk komputasi ilmiah adalah:<a target="_blank" rel="noopener" href="http://numpy.org.浏览网页找到下载链接.http//scipy.org/scipylib/download.html%E3%80%82%E8%BF%9B%E8%80%8C%E6%A0%B9%E6%8D%AE%E6%8F%90%E7%A4%BA%E6%AD%A5%E9%AA%A4%E5%AE%89%E8%A3%85%E3%80%82">http://numpy.org. Jelajahi web untuk menemukan tautan unduhan. http://scipy.org/scipylib/download.html. Kemudian ikuti petunjuk untuk menginstal.</a><br>Instalasi khusus umumnya cocok untuk perpustakaan pihak ketiga yang belum terdaftar di pip atau gagal diinstal.<br>10.1.3 Instalasi berkas<br>Karena beberapa pustaka Python pihak ketiga hanya menyediakan kode sumber, pustaka tersebut tidak dapat dikompilasi dan diinstal pada sistem Windows setelah mengunduh file melalui pip, yang akan menyebabkan penginstalan pustaka pihak ketiga gagal. Sebagian besar masalah yang ditemui pada platform Windows di mana perpustakaan pihak ketiga tidak dapat diinstal termasuk dalam kategori ini.<br>10.1.4Menggunakan alat pip<br>Selain menginstal perpustakaan pihak ketiga, alat pip dapat melakukan pemeliharaan dasar pada perpustakaan pihak ketiga. Menjalankan pip -h akan mencantumkan sub-perintah pip yang umum digunakan.<br>pip mendukung serangkaian subperintah instalasi dan pemeliharaan seperti instal, unduh, hapus instalan, daftar, tampilkan, dan cari.<br>Subperintah uninstall dari pip dapat menghapus instalasi perpustakaan pihak ketiga yang diinstal.<br>Ikhtisar perpustakaan 10.2PyInstaller<br>PyIlnstaller adalah pustaka Python pihak ketiga yang sangat berguna yang dapat mengemas file sumber Python menjadi file yang dapat dijalankan secara langsung di sistem operasi seperti Windows, Linux, dan MacOS.<br>Dengan mengemas file sumber, program Python dapat dijalankan di lingkungan di mana Python tidak diinstal, atau dapat dengan mudah dikirimkan dan dikelola sebagai file independen. PyInstaller perlu diinstal menggunakan alat pip dari baris perintah.<br>pip instal Pylnstaller<br>Perintah pip dapat secara otomatis menginstal perpustakaan PyInstaller ke direktori interpreter Python, yang sama dengan jalur perintah pip atau pip3 dan dapat dipanggil langsung pada baris perintah.<br>Pylnstaller mengemas dan menghasilkan file eksekusi berbeda untuk sistem operasi berbeda.<br>Pustaka 10.3PyInstaller dan pengemasan program<br>Sangat mudah untuk mengemas file sumber Python menggunakan perpustakaan PyInstaller. Struktur tata bahasa:<br>Nama file sumber Pyinstaller<br>Setelah eksekusi, dua folder, dist dan build, akan dibuat di direktori tempat file sumber berada. Diantaranya, direktori build adalah direktori tempat PyInstaller menyimpan file-file sementara dan dapat dihapus dengan aman. Pemaket terakhir berada di direktori yang sama dengan file sumber di dalam dist. File lain dalam direktori adalah pustaka tautan dinamis dari file yang dapat dieksekusi.<br>Anda dapat menggunakan parameter -F untuk menghasilkan file eksekusi yang berdiri sendiri dari file sumber Python.<br>pyinstaller -F a.py<br>Setelah eksekusi, file a.exe akan muncul di direktori dist tanpa perpustakaan yang bergantung. Jalankan untuk menjalankan program. Saat menggunakan perpustakaan Pylnstaller, Anda perlu memperhatikan masalah berikut:<br>Jalur file tidak boleh mengandung spasi atau titik bahasa Inggris (.). File sumber harus dikodekan UTF_8. Jenis pengkodean lainnya tidak didukung untuk saat ini.<br>Parameter umum dari perintah pyinstaller<br>-h, –membantu: Melihat bantuan<br>–clean: Bersihkan file sementara selama proses pengemasan<br>-D, –onedir: nilai default, menghasilkan direktori dist<br>-F, –onefile: Hanya file paket independen yang dapat dibuat di folder dist<br>-i&lt;icon file name.ico&gt;: Menentukan file ikon yang digunakan oleh program pengemasan<br>Perintah pyinstaller tidak perlu menambahkan kode ke file sumber Python, hanya perlu dipaketkan melalui perintah.</p>
+<p>Ikhtisar perpustakaan 10.4jieba<br>Karena kata-kata dalam teks berbahasa Mandarin tidak dipisahkan oleh spasi atau tanda baca, terdapat masalah "segmentasi kata" yang penting dalam bahasa Mandarin dan bahasa serupa.<br>Jieba adalah pustaka fungsi segmentasi kata berbahasa Mandarin pihak ketiga yang penting dengan Python, yang dapat mengelompokkan teks berbahasa Mandarin menjadi rangkaian kata berbahasa Mandarin. Perpustakaan jieba perlu diinstal melalui perintah pip.<br>pemasang pip jieba<br>Prinsip segmentasi kata dari perpustakaan jieba adalah menggunakan leksikon bahasa Mandarin untuk membandingkan konten yang akan disegmentasi dengan leksikon segmentasi kata, dan menemukan frasa dengan probabilitas tertinggi melalui struktur grafik dan metode pemrograman dinamis. Selain segmentasi kata, jieba juga menyediakan fungsi menambahkan kata-kata khusus berbahasa Mandarin.<br>Perpustakaan jieba mendukung tiga mode segmentasi kata: mode tepat, yang memotong kalimat paling akurat dan cocok untuk analisis teks; mode penuh, yang memindai semua kata dalam kalimat yang dapat diubah menjadi kata-kata, yang sangat cepat, tetapi tidak dapat menyelesaikan ambiguitas; mode mesin pencari, berdasarkan mode tepat, membagi lagi kata-kata panjang untuk meningkatkan tingkat ingatan dan cocok untuk segmentasi kata mesin pencari.<br>Untuk segmentasi kata dalam bahasa Mandarin, jieba hanya membutuhkan satu baris kode. (Tidak ada masalah segmentasi kata dalam teks bahasa Inggris)<br>Perpustakaan 10.5jieba dan segmentasi kata Cina<br>Perpustakaan jieba terutama menyediakan fungsi segmentasi kata dalam bahasa Mandarin dan dapat membantu dalam menyesuaikan kamus segmentasi kata.<br>Fungsi segmentasi kata yang umum digunakan di perpustakaan jieba<br>jieba.lcut(s): Mode tepat, mengembalikan tipe daftar<br>jieba.lcut(s,cut_all=True): mode penuh, mengembalikan tipe daftar<br>jieba.lcut_for_search(s): mode mesin pencari, mengembalikan tipe daftar<br>jieba.add_word(w): Tambahkan kata baru w ke kamus segmentasi kata<br>jieba.lcut(s) adalah fungsi segmentasi kata berbahasa Mandarin yang paling umum digunakan. Ini digunakan dalam mode presisi, yaitu membagi string menjadi frasa bahasa Mandarin yang setara, dan hasil yang dikembalikan adalah tipe daftar.<br>jieba.lcut(s,cut_all=True) digunakan dalam mode penuh, yaitu, semua kemungkinan segmen kata dari string dicantumkan, dan hasil yang dikembalikan adalah tipe daftar, dengan redundansi terbesar.<br>Dibandingkan dengan mode eksak, mode penuh akan menemukan semua kemungkinan segmentasi kata. Misalnya, "komputer" dibagi menjadi tiga kemungkinan kata: "komputasi", "komputer", dan "komputer".<br>Jieba.lcut_for_search(s) mengembalikan rumus mesin pencari, pertama-tama menjalankan mode yang tepat, dan kemudian mengelompokkan kata-kata yang panjang untuk mendapatkan hasil akhir.<br>Dibandingkan dengan mode presisi, kata panjang "komputer" dibagi menjadi tiga kata: "komputasi", "komputer", dan "komputer", yang memiliki redundansi tertentu.<br>Tip: Mode Exact adalah yang paling umum digunakan karena tidak menghasilkan redundansi.<br>Mode mesin pencari lebih cenderung mencari kata-kata pendek. Metode ini memiliki tingkat redundansi tertentu, namun redundansinya lebih kecil dibandingkan mode penuh.<br>Bagaimana cara memilih di antara tiga mode segmentasi kata? Tergantung pada kebutuhan Anda<br>Jika Anda ingin mengelompokkan teks secara akurat tanpa menyebabkan redundansi, Anda hanya dapat memilih fungsi jieba.Icut(s).<br>Kami berharap segmentasi teks lebih akurat, tanpa melewatkan kemungkinan hasil segmentasi kata, dan kami akan memilih mode penuh. Jika Anda belum mengetahui cara menggunakannya, Anda dapat menggunakan mode mesin pencari.<br>Fungsi jieba.add word() digunakan untuk menambahkan kata-kata baru ke kamus jieba.<br>Ikhtisar perpustakaan 10.6wordcloud<br>Ada berbagai cara untuk menampilkan data. Meskipun grafik statistik tradisional sangat "ilmiah", namun agak kuno. Khusus untuk teks, terdapat kebutuhan besar akan efek tampilan yang lebih intuitif dan artistik. Untuk permintaan seperti ini, metode tampilan unik dari word cloud telah memenangkan hati masyarakat.<br>Awan Kata menggunakan kata-kata sebagai unit dasar, dan dirancang dalam ukuran berbeda sesuai dengan frekuensi kemunculannya dalam teks untuk membentuk efek visual yang berbeda, membentuk "awan kunci" atau "render kata kunci" sehingga pembaca dapat memahami inti dari teks hanya dengan "sekilas". Metode penyajian ini menjadi model penyajian teks.<br>Pustaka Wordcloud adalah pustaka Python pihak ketiga yang khusus digunakan untuk menghasilkan awan kata dari teks. Ini sangat umum dan menarik. Tip: kata pergi<br>Mampu mengubah teks menjadi kata cloud juga merupakan kemampuan yang diperlukan.<br>Untuk pengenalan rinci tentang perpustakaan wordcloud, silakan kunjungi<a target="_blank" rel="noopener" href="https://amueller.github.io/word">https://amueller.github.io/word</a> cloud/Instal perpustakaan wordcloud menggunakan baris perintah cmd Windows sebagai berikut:<br>10.7 perpustakaan wordcloud dan cloud kata visual<br>Saat membuat cloud kata, wordcloud akan mengelompokkan teks target dengan spasi atau pembatas tanda baca secara default. untuk<br>Untuk teks berbahasa Mandarin, pemrosesan segmentasi kata harus diselesaikan oleh pengguna. Langkah umumnya adalah mengelompokkan teks terlebih dahulu, lalu menyambungkannya dengan spasi, lalu memanggil fungsi perpustakaan wordcloud. Saat memproses bahasa Mandarin, Anda juga perlu menentukan font berbahasa Mandarin. Misalnya, pilih Microsoft Yahei (msyh.ttc)<br>Sebagai efek tampilan, Anda perlu menyimpan file font dan kode di direktori yang sama atau menambahkan path lengkap sebelum nama file font.</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import jieba</span><br><span class="line">from wordcloud import WordCloud</span><br><span class="line">txt=&#x27;程序设计语言是计算机能够理解和识别用户操作意图的一种交互体系，它按照特定规则组织、计算机指令，使用计算机能够自动进行各种运算处理&#x27;</span><br><span class="line">words=jieba.lcut(txt)</span><br><span class="line">newtxt=&#x27; &#x27;.join(words)</span><br><span class="line">wordcloud=WordCloud(font_path=&#x27;msyh.ttc&#x27;).generate(newtxt)wordcloud.to_file(&#x27;词云中文案例.png&#x27;)</span><br></pre></td></tr></table></figure>
-<p>Wordcloud库的核心是 WordCloud类，所有的功能都封装在 WordCloud类中。使用时需要实例化一个 WordCloud类的对象，并调用其 generate(text)方法将text文本转化为词云。WordCloud在创建时有一系列可选参数，用于配置词云图片。<br>font_path<br>指定字体文件的完整路径，默认None<br>width<br>生成图片宽度，默认400像素<br>height<br>生成图片高度，默认200像素<br>mask<br>词云形状，默认None，即方形图<br>min_font_size<br>词云中最小的字体字号，默认4号<br>font_step<br>字号步进间隔，默认1<br>max_font_size<br>词云中最大的字体字号，默认None，根据高度自动调节<br>max_words<br>词云图中最大词数，默认200<br>stopwords<br>被排除词列表，排除词不在词云中显示<br>background_color<br>图片背景色，默认黑色<br>WordCloud类的常用方法<br>generate(text)<br>由text文本生成词云<br>to_file(filename)<br>将词云图保存为名为filename的文件<br>wordcloud可以生成任何形状的词云，为了获取形状，需要提供一张形状的图像。</p>
+<p>Inti dari perpustakaan Wordcloud adalah kelas WordCloud, dan semua fungsi dienkapsulasi dalam kelas WordCloud. Saat menggunakannya, Anda perlu membuat instance objek kelas WordCloud dan memanggil metode generate(text) untuk mengubah teks menjadi word cloud. Saat WordCloud dibuat, ada serangkaian parameter opsional untuk mengonfigurasi gambar cloud kata.<br>font_path<br>Tentukan path lengkap ke file font, defaultnya Tidak Ada<br>width<br>Hasilkan lebar gambar, default 400 piksel<br>height<br>Hasilkan tinggi gambar, default 200 piksel<br>mask<br>Bentuk awan kata, default Tidak ada, yaitu gambar persegi<br>min_font_size<br>Ukuran font terkecil di kata cloud, ukuran default 4<br>font_step<br>Interval langkah ukuran font, default 1<br>max_font_size<br>Ukuran font terbesar di kata cloud, default Tidak Ada, otomatis disesuaikan menurut ketinggian<br>max_words<br>Jumlah maksimum kata dalam bagan cloud kata, defaultnya adalah 200<br>stopwords<br>Daftar kata yang dikecualikan, kata-kata yang dikecualikan tidak ditampilkan di cloud kata<br>background_color<br>Warna latar belakang gambar, default hitam<br>Metode umum kelas WordCloud<br>menghasilkan (teks)<br>Hasilkan awan kata dari teks teks<br>ke_file(nama file)<br>Simpan kata cloud sebagai file bernama nama file<br>wordcloud dapat menghasilkan awan kata dalam bentuk apa pun. Untuk mendapatkan bentuk tersebut, perlu disediakan gambar bentuk tersebut.</p>
 
     </article>
     
     <div class="read-nums">
       <!-- id 将作为查询条件 -->
-      <span id="posts/python10/" class="leancloud_visitors" data-flag-title="Your Article Title">
-        <em class="post-meta-item-text">浏览量</em>
+      <span id="posts/python10/" class="leancloud_visitors" data-flag-title="Judul Artikel Anda">
+        <em class="post-meta-item-text">Jumlah kunjungan</em>
         <i class="leancloud-visitors-count"></i>
       </span>
     </div>
     <div class="comments-intro">
-      <h2>评论区</h2>
-      <p>欢迎你留下宝贵的意见，昵称输入QQ号会显示QQ头像哦~</p>
+      <h2>Kolom komentar</h2>
+      <p>Anda dipersilakan untuk meninggalkan komentar Anda yang berharga. Jika Anda memasukkan nomor QQ Anda sebagai nama panggilan Anda, avatar QQ Anda akan ditampilkan~</p>
     </div>
     <div id="vcomments" class="vcomments"></div>
     
@@ -455,21 +455,21 @@ pre:active {
   <div class="article-catelogue">
     <div class="article-catelogue--wrapper">
       <div class="catelogue catelogue-1">
-        <h3>目录</h3>
+        <h3>Daftar isi</h3>
         
       </div>
       
         <div class="catelogue catelogue-2">
           
             <p>
-              <span>上一篇：</span>
-              <a href="/posts/python09/">第九章  标准库概览</a>
+              <span>Artikel sebelumnya:</span>
+              <a href="/posts/python09/">Bab 9 Ikhtisar Perpustakaan Standar</a>
             </p>
            
           
             <p>
-              <span>下一篇</span>
-              <a href="/posts/python06/">第六章  第三方生态</a>
+              <span>Artikel berikutnya</span>
+              <a href="/posts/python06/">Bab 6 Ekologi Pihak Ketiga</a>
             </p>
           
         </div>
@@ -482,7 +482,7 @@ pre:active {
 
 <script>
   // var定义，避免pjax重新进来造成的重复声明错误
-  var config = JSON.parse('{"enable":true,"appId":"Pf8zCXGEH1qsprnWfikVVujL-gzGzoHsz","appKey":"qOqoiUHhH1TGtLRUYURkLRQX","placeholder":"请留下你宝贵的意见吧~","meta":["nick"],"recordIP":true,"visitor":true,"enableQQ":true}')
+  var config = JSON.parse('{"enable":true,"appId":"Pf8zCXGEH1qsprnWfikVVujL-gzGzoHsz","appKey":"qOqoiUHhH1TGtLRUYURkLRQX","placeholder":"Silakan tinggalkan komentar Anda yang berharga~","meta":["nick"],"recordIP":true,"visitor":true,"enableQQ":true}')
   new Valine({
     el: '#vcomments',
     appId: config.appId,
@@ -522,7 +522,7 @@ pre:active {
       <div class="main-right-wrapper"><div class="main-right">
   <div class="main-right--board">
     <div class="main-right--title">
-      <h5>公告栏</h5>
+      <h5>Papan pengumuman</h5>
       <i class="iconfont icon-gonggao"></i>
     </div>
     <style>
@@ -648,7 +648,7 @@ pre:active {
   </div>
   <script type="text/javascript">$(function () { var max_num = 4; var time_stop = 4250; var time_swap = 1250; var num = 0; var chosen_circle_color = "#0aa1ed"; var chosen_not_circle_color = "#ffffff"; function every_thing() { $("#div_img").animate({ left: -$(".every_img").eq(0).width() * num }, time_swap); $(".every_circle").eq(num).css("background", chosen_circle_color).siblings('li').css("background", chosen_not_circle_color); } function Right_move() { if (num >= max_num) { num = 0; } else { num++; } every_thing(); } function Left_move() { if (num === 0) { num = max_num; } else { num--; } every_thing(); } $(".every_circle").eq(0).css("background", chosen_circle_color); $("#div_img").width($('.every_img').length * $('.every_img').eq(0).width()); var id = setInterval(Right_move, time_stop); $("#carousel_main").mouseover(function () { clearInterval(id) }); $("#carousel_main").mouseout(function () { id = setInterval(Right_move, time_stop); }); $(".left").click(function () { $("#div_img").stop(); Left_move(); }); $(".right").click(function () { $("#div_img").stop(); Right_move(); }); $(".every_circle").mouseover(function () { num = $(this).index(); $("#div_img").stop(); every_thing(); }); }); function link(jinliweili_Url, quality_target) { window.open(jinliweili_Url, quality_target);}</script>
     <div class="main-right--content">
-      Hello~大噶好。锦鲤未离。测试文字测试测试测试测试测试测试测试测试，测试测试测试测试测试测试。 
+      Halo ~ Selamat siang. Koinya tetap ada. Tes tes teks tes tes tes tes tes tes tes tes tes tes. 
     </div>
   </div>
 
@@ -657,23 +657,23 @@ pre:active {
   <div class="operate-items">
     <div class="operate-item backtop">
       <i class="iconfont icon-huidaodingbu"></i>
-      <span>回到顶部</span>
+      <span>kembali ke atas</span>
     </div>
     
     <div class="operate-item turn-comment hidden">
       <i class="iconfont icon-pinglun"></i>
-      <span>查看评论</span>
+      <span>Lihat komentar</span>
     </div>
     
   </div>
 
   <div class="main-right--site">
     <div class="main-right--power">
-      <p>Power By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>.</p>
+      <p>Ditenagai oleh <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>.</p>
 
-      <p>Theme：<a href="">koinl.</a></p>
+      <p>Tema:<a href="">koinl.</a></p>
     </div>
-    <p class="main-right--refer"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index">信息来源于锦鲤未离</a> </p>
+    <p class="main-right--refer"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index">Informasi berasal dari Koinl</a> </p>
   </div>
 </div>
 

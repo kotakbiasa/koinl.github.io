@@ -1,0 +1,4 @@
+{
+  "source": "第一章  程序基本结构",
+  "translated": "Bab 1 Struktur Dasar Program"
+}

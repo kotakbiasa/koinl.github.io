@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的技术与生活——『SQL Server』第六章  数据库及其对象.md | 锦鲤未离</title>
+  <title>Teknologi dan Kehidupan Saya - Database "SQL Server" Bab 6 dan Objeknya.md | Koi Wei Li</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="/imgs/shortcut-icon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/public.css" />
@@ -17,7 +17,7 @@
 
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <script>
-    document.title = `我的技术与生活——『SQL Server』第六章  数据库及其对象.md`
+    document.title = `Teknologi dan Kehidupan Saya—"SQL Server" Bab 6 Basis Data dan Objeknya.md`
   </script>
 <meta name="generator" content="Hexo 6.1.0"></head>
 
@@ -147,13 +147,13 @@
   <div class="header-wrapper">
     <div class="header-left">
       <div class="header-search">
-        <input id="search-input" type="text" class="header-search--input" placeholder="请输入要检索的文章标题" />
+        <input id="search-input" type="text" class="header-search--input" placeholder="Masukkan judul artikel yang ingin dicari" />
         <span id="search-btn" class="header-search--icon"><i class="iconfont icon-sousuo"></i></span>
       </div>
       <div id="search-layer" class="header-search--layer hidden">
         <p class="title">
-          <span>以下是搜索内容：</span>
-          <span id="close-layer-btn">关闭</span>
+          <span>Hasil pencarian:</span>
+          <span id="close-layer-btn">Tutup</span>
         </p>
         <ul>
         </ul>
@@ -162,27 +162,27 @@
     <div class="header-right">
       <ul class="header-menu">
         <li>
-          <a href="http://example.com/">
+          <a href="/">
             <i class="header-menu--icon iconfont icon-shouye"></i>
-            <span class="header-menu--span">首页</span>
+            <span class="header-menu--span">Beranda</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/log">
+          <a href="/log">
             <i class="header-menu--icon iconfont icon-rizhi"></i>
-            <span class="header-menu--span">日志</span>
+            <span class="header-menu--span">Catatan</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/link">
+          <a href="/link">
             <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
-            <span class="header-menu--span">友情链接</span>
+            <span class="header-menu--span">Tautan</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/about">
+          <a href="/about">
             <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
-            <span class="header-menu--span">关于我</span>
+            <span class="header-menu--span">Tentang saya</span>
           </a>
         </li>
       </ul>
@@ -194,7 +194,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"⌊手机篇⌉ 将手机投屏到电脑","path":"posts/EDp-scrcpy/"},{"title":"⌊电脑篇⌉ 电脑声音无法出现","path":"posts/EDc-sound/"},{"title":"Hello World","path":"posts/3eeb/"},{"title":"小贴士~","path":"posts/tips/"},{"title":"数据库实训-Eclipse 连接 MySQL","path":"posts/EconnectM/"},{"title":"本篇用于测试样式","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"配置hadoop","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"第1章  Scala语言基础.","path":"posts/spark_01/"},{"title":"第3章  Spark RDD弹性分布式数据集","path":"posts/spark_03/"},{"title":"第4章  Spark SQL结构化数据文件处理","path":"posts/spark_04/"},{"title":"第5章  HBase 分布式数据库","path":"posts/spark_05/"},{"title":"第6章  Kafka分布式发布订阅消息系统","path":"posts/spark_06/"},{"title":"第7章  Spark Streaming","path":"posts/spark_07/"},{"title":"第8章  Spark MLlib机器学习算法库","path":"posts/spark_08/"},{"title":"第1章  时间序列分析","path":"posts/Time-Series_Analysis_ALL/"},{"title":"第1章  深度卷积神经网络分析","path":"posts/DCNN_ALL/"},{"title":"考试---可视化","path":"posts/考试---可视化/"},{"title":"第三章  程序流程控制[未完成]","path":"posts/matlab03/"},{"title":"应用篇-第一章  图形对象句柄[未完成]","path":"posts/matlab09/"},{"title":"第五章  数据分析与多项式计算[未完成]","path":"posts/matlab05/"},{"title":"应用篇-第二章  图形对用户界面设计[未完成]","path":"posts/matlabyyp02/"},{"title":"第四章 绘图[未完成]","path":"posts/matlab04/"},{"title":"程序流程控制","path":"posts/java-cxlckz/"},{"title":"消息, 继承与多态","path":"posts/java-xxjcydt/"},{"title":"第六章  数组","path":"posts/java-sz/"},{"title":"键盘输值","path":"posts/java-wjyl/"},{"title":"封装机制与访问控制","path":"posts/java-fzjzyfwkz/"},{"title":"第四章  类与对象","path":"posts/java-lydx/"},{"title":"递归调用","path":"posts/java-dgdy/"},{"title":"『SQL Server』第一章  数据库应用系统开发方法","path":"posts/sqlserver01/"},{"title":"『SQL Server』第七章  高级数据库查询","path":"posts/sqlserver07/"},{"title":"『SQL Server』第三章  系统设计","path":"posts/sqlserver03/"},{"title":"『SQL Server』第九章  安全管理","path":"posts/sqlserver09/"},{"title":"『SQL Server』第二章  需求分析","path":"posts/sqlserver02/"},{"title":"『SQL Server』第五章  UML与DBAS","path":"posts/sqlserver05/"},{"title":"『SQL Server』第八章  数据库后台编程技术","path":"posts/sqlserver08/"},{"title":"『SQL Server』第六章  数据库及其对象.md","path":"posts/sqlserver06/"},{"title":"『SQL Server』第十一章  故障管理","path":"posts/sqlserver11/"},{"title":"『SQL Server』第十三章  大规模数据库架构","path":"posts/sqlserver13/"},{"title":"『SQL Server』第十四章  数据仓库与数据挖掘","path":"posts/sqlserver14/"},{"title":"『SQL Server』第十二章  备份与恢复数据库","path":"posts/sqlserver12/"},{"title":"『SQL Server』第十章  数据库运行管理与维护","path":"posts/sqlserver10/"},{"title":"『SQL Server』第四章  应用系统功能设计","path":"posts/sqlserver04/"},{"title":"『SQL Server』考三","path":"posts/sqlserver3/"},{"title":"『SQL Server』考二","path":"posts/sqlserver2/"},{"title":"三级考试(数据库篇)错题整理(选择题, 填空题篇)","path":"posts/sqlservers/"},{"title":"第一章  操作基础","path":"posts/linux01/"},{"title":"第二章  进程管理","path":"posts/linux02/"},{"title":"第三章  存储和逻辑卷管理","path":"posts/linux03/"},{"title":"第四章  用户和组管理","path":"posts/linux04/"},{"title":"第六章  用户管理","path":"posts/linux05/"},{"title":"第六章  网络基础","path":"posts/linux06/"},{"title":"安全管理","path":"posts/linux07/"},{"title":"第十章 Shell 脚本","path":"posts/linux08/"},{"title":"第一章  操作基础","path":"posts/linuxlianxizuoye/"},{"title":"第八章  计算生态","path":"posts/python08/"},{"title":"第九章  标准库概览","path":"posts/python09/"},{"title":"第七章  文件和数据格式化","path":"posts/python07/"},{"title":"第十章  第三方库概览","path":"posts/python10/"},{"title":"第一章  程序基本结构","path":"posts/py01/"},{"title":"第一章  程序基本结构","path":"posts/py01/"},{"title":"第三章  组合数据类型","path":"posts/py03/"},{"title":"第某章  random 库","path":"posts/pythonrdom/"},{"title":"第某章  PIL 库","path":"posts/py0nnnpillow/"},{"title":"第某章  turtle 库","path":"posts/py0nnn/"},{"title":"第二章  函数","path":"posts/py02/"},{"title":"第五章  文件操作","path":"posts/python05/"},{"title":"第六章  第三方生态","path":"posts/python06/"},{"title":"第一章  排序","path":"posts/dsa04/"},{"title":"第一章  线性表","path":"posts/dsa01/"},{"title":"第二章  查找","path":"posts/dsa05/"},{"title":"第三章  图","path":"posts/dsa03/"},{"title":"第二章  树和二叉树","path":"posts/dsa02/"},{"title":"绪论  聊聊需要的软件","path":"posts/hadoop00/"},{"title":"第一章  分布式文件系统（HDFS）概述","path":"posts/hadoop01/"},{"title":"第二章  磁盘I/O操作","path":"posts/hadoop02/"},{"title":"第三章  MapReduce基础","path":"posts/hadoop03/"},{"title":"第一章  数据计算（NumPy）","path":"posts/DPaA01/"},{"title":"第二章  数据分析（Pandas）","path":"posts/DPaA02/"},{"title":"第三章  数据可视化（Matplotlib）","path":"posts/DPaA03/"},{"title":"第四章  数据预处理","path":"posts/DPaA04/"},{"title":"第 4 章  抽样推断","path":"posts/as04/"},{"title":"第一章 待补充...","path":"posts/DM01/"}]`)
+  const posts = JSON.parse(`[{"title":"⌊Ponsel⌉ Cerminkan layar ponsel ke komputer","path":"posts/EDp-scrcpy/"},{"title":"⌊Bab Komputer⌉ Suara komputer tidak dapat muncul","path":"posts/EDc-sound/"},{"title":"Halo Dunia","path":"posts/3eeb/"},{"title":"Kiat~","path":"posts/tips/"},{"title":"Pelatihan database-Koneksi Eclipse ke MySQL","path":"posts/EconnectM/"},{"title":"Artikel ini digunakan untuk menguji gaya","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"penempatan hadoop","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"Bab 1 Dasar-dasar bahasa Scala.","path":"posts/spark_01/"},{"title":"Bab 3 Kumpulan Data Terdistribusi Elastis Spark RDD","path":"posts/spark_03/"},{"title":"Bab 4 Pemrosesan File Data Terstruktur Spark SQL","path":"posts/spark_04/"},{"title":"Bab 5 Basis Data Terdistribusi HBase","path":"posts/spark_05/"},{"title":"Bab 6 Sistem Pesan Publikasikan-Berlangganan Terdistribusi Kafka","path":"posts/spark_06/"},{"title":"Bab 7 Percikan Streaming","path":"posts/spark_07/"},{"title":"Bab 8 Perpustakaan Algoritma Pembelajaran Mesin Spark MLlib","path":"posts/spark_08/"},{"title":"Bab 1 Analisis Rangkaian Waktu","path":"posts/Time-Series_Analysis_ALL/"},{"title":"Bab 1 Analisis Jaringan Syaraf Konvolusional Mendalam","path":"posts/DCNN_ALL/"},{"title":"Ujian---Visualisasi","path":"posts/考试---可视化/"},{"title":"Bab 3 Kontrol Aliran Program [Belum Selesai]","path":"posts/matlab03/"},{"title":"Aplikasi - Bab 1 Pegangan Objek Grafis [Belum Selesai]","path":"posts/matlab09/"},{"title":"Bab 5 Analisis Data dan Perhitungan Polinomial [Belum Selesai]","path":"posts/matlab05/"},{"title":"Aplikasi - Bab 2 Desain Grafis dan Antarmuka Pengguna [Belum Selesai]","path":"posts/matlabyyp02/"},{"title":"Bab 4 Menggambar [Belum Selesai]","path":"posts/matlab04/"},{"title":"pengendalian aliran program","path":"posts/java-cxlckz/"},{"title":"Pesan, warisan dan polimorfisme","path":"posts/java-xxjcydt/"},{"title":"Bab 6 Pengaturan","path":"posts/java-sz/"},{"title":"Masukan papan ketik","path":"posts/java-wjyl/"},{"title":"Mekanisme enkapsulasi dan kontrol akses","path":"posts/java-fzjzyfwkz/"},{"title":"Bab 4 Kelas dan Objek","path":"posts/java-lydx/"},{"title":"panggilan rekursif","path":"posts/java-dgdy/"},{"title":"\"SQL Server\" Bab 1 Metode Pengembangan Sistem Aplikasi Basis Data","path":"posts/sqlserver01/"},{"title":"\"SQL Server\" Bab 7 Kueri Basis Data Tingkat Lanjut","path":"posts/sqlserver07/"},{"title":"\"SQL Server\" Bab 3 Desain Sistem","path":"posts/sqlserver03/"},{"title":"\"SQL Server\" Bab 9 Manajemen Keamanan","path":"posts/sqlserver09/"},{"title":"Analisis Persyaratan \"SQL Server\" Bab 2","path":"posts/sqlserver02/"},{"title":"\"SQL Server\" Bab 5 UML dan DBAS","path":"posts/sqlserver05/"},{"title":"\"SQL Server\" Bab 8 Teknologi Pemrograman Backend Basis Data","path":"posts/sqlserver08/"},{"title":"Database \"SQL Server\" Bab 6 dan Objeknya.md","path":"posts/sqlserver06/"},{"title":"\"SQL Server\" Bab 11 Manajemen Kesalahan","path":"posts/sqlserver11/"},{"title":"\"SQL Server\" Bab 13 Arsitektur Basis Data Skala Besar","path":"posts/sqlserver13/"},{"title":"\"SQL Server\" Bab 14 Pergudangan Data dan Penambangan Data","path":"posts/sqlserver14/"},{"title":"\"SQL Server\" Bab 12 Mencadangkan dan memulihkan database","path":"posts/sqlserver12/"},{"title":"\"SQL Server\" Bab 10 Manajemen dan Pemeliharaan Operasi Basis Data","path":"posts/sqlserver10/"},{"title":"\"SQL Server\" Bab 4 Desain Fungsi Sistem Aplikasi","path":"posts/sqlserver04/"},{"title":"Tes \"SQL Server\" ketiga","path":"posts/sqlserver3/"},{"title":"Ujian \"SQL Server\" 2","path":"posts/sqlserver2/"},{"title":"Memilah soal yang salah pada ujian Level 3 (bagian database) (soal pilihan ganda, soal isian yang kosong)","path":"posts/sqlservers/"},{"title":"Bab 1 Dasar-dasar Pengoperasian","path":"posts/linux01/"},{"title":"Bab 2 Manajemen Proses","path":"posts/linux02/"},{"title":"Bab 3 Penyimpanan dan Manajemen Volume Logis","path":"posts/linux03/"},{"title":"Bab 4 Manajemen Pengguna dan Grup","path":"posts/linux04/"},{"title":"Bab 6 Manajemen Pengguna","path":"posts/linux05/"},{"title":"Bab 6 Dasar-Dasar Jaringan","path":"posts/linux06/"},{"title":"Manajemen keamanan","path":"posts/linux07/"},{"title":"Bab 10 Skrip Shell","path":"posts/linux08/"},{"title":"Bab 1 Dasar-dasar Pengoperasian","path":"posts/linuxlianxizuoye/"},{"title":"Bab 8 Ekologi Komputasi","path":"posts/python08/"},{"title":"Bab 9 Ikhtisar Perpustakaan Standar","path":"posts/python09/"},{"title":"Bab 7 Pemformatan File dan Data","path":"posts/python07/"},{"title":"Bab 10 Ikhtisar Perpustakaan Pihak Ketiga","path":"posts/python10/"},{"title":"Bab 1 Struktur Dasar Program","path":"posts/py01/"},{"title":"Bab 1 Struktur Dasar Program","path":"posts/py01/"},{"title":"Bab 3 Tipe Data Gabungan","path":"posts/py03/"},{"title":"Bab 1 perpustakaan acak","path":"posts/pythonrdom/"},{"title":"Bab 1 Perpustakaan PIL","path":"posts/py0nnnpillow/"},{"title":"Bab 1 perpustakaan penyu","path":"posts/py0nnn/"},{"title":"Bab 2 Fungsi","path":"posts/py02/"},{"title":"Bab 5 Operasi File","path":"posts/python05/"},{"title":"Bab 6 Ekologi Pihak Ketiga","path":"posts/python06/"},{"title":"Bab 1 Penyortiran","path":"posts/dsa04/"},{"title":"Bab 1 Tabel Linier","path":"posts/dsa01/"},{"title":"Bab 2 Pencarian","path":"posts/dsa05/"},{"title":"Bab 3 Gambar","path":"posts/dsa03/"},{"title":"Bab 2 Pohon dan Pohon Biner","path":"posts/dsa02/"},{"title":"Pendahuluan Mari kita bicara tentang perangkat lunak yang kita butuhkan","path":"posts/hadoop00/"},{"title":"Bab 1 Ikhtisar Sistem File Terdistribusi (HDFS)","path":"posts/hadoop01/"},{"title":"Bab 2 Operasi I/O Disk","path":"posts/hadoop02/"},{"title":"Bab 3 Dasar-dasar MapReduce","path":"posts/hadoop03/"},{"title":"Bab 1 Komputasi Data (NumPy)","path":"posts/DPaA01/"},{"title":"Bab 2 Analisis Data (Panda)","path":"posts/DPaA02/"},{"title":"Bab 3 Visualisasi Data (Matplotlib)","path":"posts/DPaA03/"},{"title":"Bab 4 Pemrosesan Awal Data","path":"posts/DPaA04/"},{"title":"Bab 4 Inferensi Pengambilan Sampel","path":"posts/as04/"},{"title":"Bab 1 Akan ditambahkan...","path":"posts/DM01/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -225,7 +225,7 @@
       `
     })
     if (html.trim () === '') {
-      html += '<p class="empty">没有搜索到内容</p>'
+      html += '<p class="empty">Tidak ada hasil pencarian</p>'
     }
     layer.querySelector('ul').innerHTML = html
     layer.classList.remove('hidden')
@@ -273,20 +273,20 @@
   }
 }
       </style>
-      <img src="/imgs/avatar.jpg"" class="main-left--avatar" />
+      <img src="/imgs/avatar.jpg" class="main-left--avatar" />
       <div class="main-left--intro">
         <p class="main-left--name">KoiNL.</p>
         <div class="main-left--tags">
-          <span class="main-left--tag">中二</span>
-          <span class="main-left--tag">宅</span>
+          <span class="main-left--tag">chuunibyou</span>
+          <span class="main-left--tag">rumahan</span>
         </div>
       </div>
     </div>
   
     <div>
       <div class="main-left--motto">
-        <p>“锦鲤握运，未离我韵”</p>
-        <p>“愿好运常在”</p>
+        <p>"Koi memegang keberuntungan, sajaknya tidak pernah meninggalkanku"</p>
+        <p>"Semoga keberuntungan selalu menyertaimu"</p>
       </div>
       <div class="main-left--github">
         <span class="line"></span>
@@ -297,19 +297,19 @@
         <a href="/categories">
           <div>
             <span>16</span>
-            <span>分类</span>
+            <span>Kategori</span>
           </div>
         </a>
         <a href="/tags">
           <div>
             <span>0</span>
-            <span>标签</span>
+            <span>Label</span>
           </div>
         </a>
         <a href="/archives">
           <div>
             <span>14 </span>
-            <span>归档</span>
+            <span>Arsip</span>
           </div>
         </a>
       </div>
@@ -321,35 +321,35 @@
       
         <li>
           <a href="/">
-            <span class="header-menu--span">小站首页</span>
+            <span class="header-menu--span">Beranda situs</span>
             <i class="header-menu--icon iconfont icon-shouye"></i>
           </a>
         </li>
       
         <li>
           <a href="/log">
-            <span class="header-menu--span">个人日志</span>
+            <span class="header-menu--span">Catatan pribadi</span>
             <i class="header-menu--icon iconfont icon-rizhi"></i>
           </a>
         </li>
       
         <li>
           <a href="/link">
-            <span class="header-menu--span">友情链接</span>
+            <span class="header-menu--span">Tautan</span>
             <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
           </a>
         </li>
       
         <li>
           <a href="/about">
-            <span class="header-menu--span">关于自己</span>
+            <span class="header-menu--span">Tentang saya</span>
             <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
           </a>
         </li>
       
         <li>
           <a href="/tools">
-            <span class="header-menu--span">我的工具</span>
+            <span class="header-menu--span">Alat saya</span>
             <i class="header-menu--icon iconfont icon-gongju"></i>
           </a>
         </li>
@@ -360,23 +360,23 @@
   <div class="main-left--block">
     <div class="main-left--site">
       <h5 class="main-left--title">
-        <span>站点信息</span>
+        <span>Informasi situs</span>
         <i class="iconfont icon-zhandian"></i>
       </h5>
       <p class="main-left--subtitle">
-        <span>文章数目：</span>
-        <span>83 篇</span>
+        <span>Jumlah artikel:</span>
+        <span>83 artikel</span>
       </p>
       <p class="main-left--subtitle">
-        <span>最近动态：</span>
-        <span>4周前</span>
+        <span>Berita terbaru:</span>
+        <span>4 minggu yang lalu</span>
       </p>
       <p class="main-left--subtitle">
-        <span>上线时间：</span>
-        <span>471天</span>
+        <span>Waktu online:</span>
+        <span>471 hari</span>
       </p>
       <p class="main-left--subtitle">
-        <span>当前版本：</span>
+        <span>Versi saat ini:</span>
         <span>v3.0.0</span>
       </p>
     </div>
@@ -409,58 +409,58 @@ pre:active {
 
 <div class="article-container">
   <div class="article">
-    <h1 class="article-title">『SQL Server』第六章  数据库及其对象.md</h1>
+    <h1 class="article-title">Database "SQL Server" Bab 6 dan Objeknya.md</h1>
     <div class="article-info">
       <div class="article-info--item">
         <div class="article-info--info">
           
           <div class="article-info--categories">
-            <span>分类：</span>
+            <span>Kategori:</span>
             <a class="category-link" href="/categories/SqlServer/">SqlServer</a>
           </div>
           
           
           <div class="article-info--tags">
-            <span>标签：</span>
+            <span>Label:</span>
             
           </div>
           
-          <p class="article-info--date">日期：2022-07-17 09:14:49</p>
+          <p class="article-info--date">Tanggal: 17-07-2022 09:14:49</p>
         </div>
         <img src="/imgs/default-cover.webp" alt="" class="article-cover">
       </div>
     </div>
     <article class="article-content">
-      <h1 id="第六章-数据库及其对象"><a href="#第六章-数据库及其对象" class="headerlink" title="第六章  数据库及其对象"></a>第六章  数据库及其对象</h1><h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><ol>
-<li>分类:系统数据库:master:数据库系统信息　　 　　　   　　<br>msdb:数据库作业信息　　 　　　   　　<br>model:数据库模板信息　　　 　　 　　<br>resource:只读数据库且不可见　　 　　　   　　<br>tempdb:临时数据库<br>　    　用户数据库:数据文件:主要数据文件:.mdf<br> 　　　     　　　  　　  　　　次要数据文件:.ndf　 　　　 　　　日志文件:事务日志文件:.ldf</li>
-<li>创建:<code>create database</code> db_name　　<code>on　primary</code>　　<code>(</code>&lt;filespec&gt;<code>)</code>　　<code>log on</code>　　<code>(</code>&lt;filespec&gt;<code>)</code></li>
+      <h1 id="第六章-数据库及其对象"><a href="#第六章-数据库及其对象" class="headerlink" title="Bab 6 Basis Data dan Objeknya"></a>Bab 6 Basis Data dan Objeknya</h1><h2 id="数据库"><a href="#数据库" class="headerlink" title="basis data"></a>basis data</h2><ol>
+<li>Kategori: basis data sistem: master: informasi sistem basis data　　 　　　   　　<br>msdb: informasi pekerjaan basis data　　 　　　   　　<br>model: informasi templat basis data　　　 　　 　　<br>sumber daya: database hanya-baca dan tidak terlihat　　 　　　   　　<br>tempdb: basis data sementara<br>　    　Basis data pengguna: file data: file data utama: .mdf<br> 　　　     　　　  　　  　　　File data sekunder: .ndf File log: File log transaksi: .ldf</li>
+<li>membuat:<code>create database</code> db_name　　<code>on　primary</code>　　<code>(</code>&lt;filespec&gt;<code>)</code>　　<code>log on</code>　　<code>(</code>&lt;filespec&gt;<code>)</code></li>
 </ol>
-<p><em>对&lt;filespec&gt;的解释:<code>name=</code>db_name_data<code>,</code>　　　　　　 　   　<code>filename=&#39;</code>C:\db_name_data.mdf<code>&#39;,</code>　　　　　 　 　　<code>size=</code>3MB<code>,</code>　　　　　 　 　　<code>maxsize=</code>{50MB|unlimited}<code>,</code>　　　　　 　 　　<code>filegrowth=</code>{1MB|10%}</em><br>要插入的表已存在: insert into t2 select * from t1<br>3. 修改:<code>alter database</code> db_name<br>　　 <code>add file</code>　　 <code>add log file</code><br>　　 <code>modify name=</code>　　 <code>modify file</code><br>　　 <code>remove file</code><br>4. 分离:<code>exec sp_detach_db &#39;</code>db_name<code>&#39;,&#39;true&#39;</code><br>5. 附加:<br>6. 自增标识列:identity</p>
-<h2 id="架构-构架-模式"><a href="#架构-构架-模式" class="headerlink" title="架构(构架)(模式)"></a>架构(构架)(模式)</h2><ol>
-<li>创建:    <code>create schema</code> sc_name</li>
-<li>可以共享<h2 id="分区表"><a href="#分区表" class="headerlink" title="分区表"></a>分区表</h2></li>
-<li>创建:例:在分区列<font color="blue">colA_name</font>(<font color="green">int</font>)上创建左侧分区函数.　　　(1)创建分区函数:<code>create partition function</code> pf_name<code>(</code><font color="green">int</font><code>)</code><br>　　　 　　 　　　　　<code>as range</code> left <code>for values(</code>1,10,100<code>）</code>　　　(2)创建分区方案:<code>create partition scheme</code> ps_name　　　　　 　　 　　　<code>as partition</code> pf_name　　　　　　　 　 　　<code>to (</code>test1,test2,test3,test4<code>)</code>　　　(3)使用分区建表:<code>create table</code> tb_name　　　　　　　 　  　　<code>(</code>col_name type… 　　　　　　 　　 　　<code>on</code> ps_name<code>(</code><font color="blue">colA_name</font><code>)</code></li>
+<p><em>Penjelasan &lt;filespec&gt;:<code>name=</code>db_name_data<code>,</code>　　　　　　 　   　<code>filename=&#39;</code>C:\db_name_data.mdf<code>&#39;,</code>　　　　　 　 　　<code>size=</code>3MB<code>,</code>　　　　　 　 　　<code>maxsize=</code>{50MB|tidak terbatas}<code>,</code>　　　　　 　 　　<code>filegrowth=</code>{1MB|10%}</em><br>Tabel yang akan disisipkan sudah ada: masukkan ke t2 pilih * dari t1<br>3. Modifikasi:<code>alter database</code> db_name<br>　　 <code>add file</code>　　 <code>add log file</code><br>　　 <code>modify name=</code>　　 <code>modify file</code><br>　　 <code>remove file</code><br>4. Pemisahan:<code>exec sp_detach_db &#39;</code>db_name<code>&#39;,&#39;true&#39;</code><br>5. Tambahan:<br>6. Kolom identitas kenaikan otomatis: identitas</p>
+<h2 id="架构-构架-模式"><a href="#架构-构架-模式" class="headerlink" title="Arsitektur (kerangka) (pola)"></a>Arsitektur (kerangka) (pola)</h2><ol>
+<li>membuat:    <code>create schema</code> sc_name</li>
+<li>Dapat dibagikan<h2 id="分区表"><a href="#分区表" class="headerlink" title="tabel partisi"></a>tabel partisi</h2></li>
+<li>Buat : Contoh : Pada kolom partisi<font color="blue">colA_name</font>(<font color="green">int</font>) untuk membuat fungsi partisi sebelah kiri. (1) Buat fungsi partisi:<code>create partition function</code> pf_name<code>(</code><font color="green">int</font><code>)</code><br>　　　 　　 　　　　　<code>as range</code> left <code>for values(</code>1,10,100<code>）</code>　　　(2) Buat rencana partisi:<code>create partition scheme</code> ps_name　　　　　 　　 　　　<code>as partition</code> pf_name　　　　　　　 　 　　<code>to (</code>tes1,tes2,tes3,tes4<code>)</code>　　　(3) Gunakan partisi untuk membuat tabel:<code>create table</code> tb_name　　　　　　　 　  　　<code>(</code>jenis nama_kolom… 　　　　　　 　　 　　<code>on</code> ps_name<code>(</code><font color="blue">colA_name</font><code>)</code></li>
 </ol>
-<h2 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h2><ol>
-<li>创建:<code>create [unique | [non]clustered] index</code> idx_name　 　<code>on</code> tb_name<code>(</code>col_name<code>)</code>　 　<code>[with fillfactor=</code>x<code>]</code></li>
-<li>重复小列在前<br>主索引为主键索引,辅索引提高查询效率,位图索引用于范围查询，哈希索引用于精确查询<h2 id="视图"><a href="#视图" class="headerlink" title="视图"></a>视图</h2></li>
-<li>索引视图来源必须是基本表,不适合建立在大量更新写操作高基数度的数据聚合(group by)</li>
+<h2 id="索引"><a href="#索引" class="headerlink" title="indeks"></a>indeks</h2><ol>
+<li>membuat:<code>create [unique | [non]clustered] index</code> idx_name　 　<code>on</code> tb_name<code>(</code>col_name<code>)</code>　 　<code>[with fillfactor=</code>x<code>]</code></li>
+<li>Ulangi kolom kecil terlebih dahulu<br>Indeks utama adalah indeks kunci utama, indeks tambahan meningkatkan efisiensi kueri, indeks bitmap digunakan untuk kueri rentang, dan indeks hash digunakan untuk kueri yang tepat.<h2 id="视图"><a href="#视图" class="headerlink" title="melihat"></a>melihat</h2></li>
+<li>Sumber tampilan indeks harus berupa tabel dasar, yang tidak cocok untuk membuat agregasi data berkardinalitas tinggi (dikelompokkan berdasarkan) berdasarkan sejumlah besar operasi pembaruan dan penulisan.</li>
 </ol>
-<p>讲一起使用的公共列值的多个表的数据行存储在一起的方法称为聚集</p>
-<p>设商品表有下列查询:<br>SELECT 商品号,商品名,单价<br>FROM 商品表 WHERE 类别 IN(‘食品’,’家电’)<br>ORDER BY 商品号<br>现建立索引:<br>CREATE INDEX idx1 ON 商品表(商品号)    # create unique index idx_name on tb_name(列名)<br>INCLUDE(商品名,单价)    # include(属性)<br>WHERE 类别&#x3D;’食品’ OR 类别&#x3D;’单价’    # where 约束条件</p>
-<p>将 t1 表的 c1 列 (int 类型)定义为标识列,初量和增量均为1<br>CREATE TABLE t1(c1 INT IDENTITY(1,1),…)</p>
-<p>直接增加已有文件的大小是扩大数据库空间的一种方法<br>ALTER DATABASE db1 MODIFY FILE(NAME&#x3D;db_datafile,SIZE&#x3D;200MB)</p>
-<p>数据库的分类分为系统数据库和用户数据库。<br>系统数据库分为master，msdb，tempdb，model，resource，其分别保存系统信息，作业信息，临时信息，模板，只读，无法看到<br>将数据库以文件形式保存。分为数据文件和日志文件。<br>数据文件分为主要数据文件（mdf只要一个，≥3）和次要数据文件（ndf，n个）<br>日志文件（ldf，≥1）<br>数据库存储空间的分配：<br>文件组：主文件组和用户文件组</p>
-<h1 id="一、创建及维护数据库"><a href="#一、创建及维护数据库" class="headerlink" title="一、创建及维护数据库"></a>一、创建及维护数据库</h1><h2 id="1-SQL-Server五个数据库"><a href="#1-SQL-Server五个数据库" class="headerlink" title="1. SQL Server五个数据库"></a>1. SQL Server五个数据库</h2><pre><code>master:记录所有系统信息，包括实例范围的元数据、端点、连接服务器和系统配置设置。还记录了所有其他数据库的存在、数据库文件的位置以及SQLServer的初始化信息
+<p>Metode penyimpanan baris data dari beberapa tabel secara bersamaan menggunakan nilai kolom yang sama disebut agregasi</p>
+<p>Misalkan tabel produk memiliki kueri berikut:<br>PILIH nomor produk, nama produk, harga satuan<br>DARI daftar produk DIMANA kategori IN('makanan','peralatan rumah tangga')<br>ORDER BERDASARKAN nomor Produk<br>Sekarang buat indeks:<br>BUAT INDEKS idx1 PADA tabel produk (nomor komoditas) # buat indeks unik idx_name pada tb_name (nama kolom)<br>INCLUDE(nama produk, harga satuan) # include(atribut)<br>WHERE kategori=’makanan’ ATAU kategori=’harga satuan’ # dimana kendala</p>
+<p>Tentukan kolom c1 (tipe int) pada tabel t1 sebagai kolom identitas, dengan kuantitas awal dan kenaikan keduanya adalah 1<br>BUAT TABEL t1(c1 INT IDENTITAS(1,1),…)</p>
+<p>Meningkatkan ukuran file yang ada secara langsung adalah salah satu cara untuk memperluas ruang database<br>ALTER DATABASE db1 MODIFIKASI FILE(NAMA=db_datafile,UKURAN=200MB)</p>
+<p>Kategori database dibagi menjadi database sistem dan database pengguna.<br>Basis data sistem dibagi menjadi master, msdb, tempdb, model, dan sumber daya, yang masing-masing menyimpan informasi sistem, informasi pekerjaan, informasi sementara, templat, hanya-baca, dan tidak dapat dilihat.<br>Simpan database sebagai file. Dibagi menjadi file data dan file log.<br>File data dibagi menjadi file data primer (hanya satu mdf, ≥3) dan file data sekunder (ndf, n)<br>berkas log (ldf, ≥1)<br>Alokasi ruang penyimpanan database:<br>Grup file: grup file utama dan grup file pengguna</p>
+<h1 id="一、创建及维护数据库"><a href="#一、创建及维护数据库" class="headerlink" title="1. Membuat dan memelihara database"></a>1. Membuat dan memelihara database</h1><h2 id="1-SQL-Server五个数据库"><a href="#1-SQL-Server五个数据库" class="headerlink" title="1. SQL Server lima database"></a>1. SQL Server lima database</h2><pre><code>master:记录所有系统信息，包括实例范围的元数据、端点、连接服务器和系统配置设置。还记录了所有其他数据库的存在、数据库文件的位置以及SQLServer的初始化信息
 model：用作实例上创建的所有数据库的模板。当用户创建一个数据库时，系统将自动将Model数据库中的全部内容复制到新建数据库中
 temodb:临时数据库，用于保存临时对象或中间结果集，并未数据的排序等操作提供一个临时工作空间
 msdb:供SQL Server 代理服务调度博阿金和作业以及记录操作员时使用，保存关于调度报警、作业、操作员等信息。作业是在SQLserver中定义的自动执行的一系列操作的几何，作业的执行不需要人工干预
 Resource：是一个只读数据库，包含了所有系统对象，SQLServer系统对象在物理上保存在Resource数据库中，但在逻辑上却显示在每个数据库的sys架构中
 </code></pre>
-<h2 id="2-组成"><a href="#2-组成" class="headerlink" title="2 组成"></a>2 组成</h2><p>（1）数据文件</p>
-<p>主要数据文件<br>拓展名.mdf,要求不能小于3M，大于model数据库的大小<br>次要数据文件<br>拓展名.ndf<br>（2）日志文件<br>拓展名.ldf<br>（3）数据库存储空间的分配<br>在SQLServer中，数据的存储分配单位是数据页，一页是一块8KB&#x3D;（8060B+132B，8060是存放数据，132存放系统信息）的连续磁盘空间</p>
-<h2 id="3-数据库文件组"><a href="#3-数据库文件组" class="headerlink" title="3 数据库文件组"></a>3 数据库文件组</h2><p>（1）主文件组<br>（2）用户定义文件组<br>通过create DataBase 或 Alter DataBase 语句中使用Filegroup 关键字指定的任何文件组</p>
-<h2 id="4-数据库文件的属性"><a href="#4-数据库文件的属性" class="headerlink" title="4 数据库文件的属性"></a>4 数据库文件的属性</h2><pre><code>文件名及其位置
+<h2 id="2-组成"><a href="#2-组成" class="headerlink" title="2 komposisi"></a>2 komposisi</h2><p>(1) Berkas data</p>
+<p>berkas data utama<br>Nama ekstensinya adalah .mdf, yang ukurannya tidak boleh kurang dari 3M dan lebih besar dari ukuran database model.<br>file data sekunder<br>Ekstensi .ndf<br>(2) File log<br>Ekstensi .ldf<br>(3) Alokasi ruang penyimpanan database<br>Di SQL Server, unit alokasi penyimpanan data adalah halaman data. Satu halaman adalah ruang disk kontinu sebesar 8KB = (8060B + 132B, 8060 untuk menyimpan data, dan 132 untuk menyimpan informasi sistem).</p>
+<h2 id="3-数据库文件组"><a href="#3-数据库文件组" class="headerlink" title="3 grup file basis data"></a>3 grup file basis data</h2><p>(1) Grup file utama<br>(2) Grup file yang ditentukan pengguna<br>Grup file apa pun yang ditentukan dengan menggunakan kata kunci Grup File dalam pernyataan buat Basis Data atau Ubah Basis Data</p>
+<h2 id="4-数据库文件的属性"><a href="#4-数据库文件的属性" class="headerlink" title="4 Properti file database"></a>4 Properti file database</h2><pre><code>文件名及其位置
     一般情况下，如果有多个数据文件的话，为了获得更好的性能，建议将文件分散存储在多个物理磁盘上
 初始大小
     在指定主要数据文件的初始大小时，其大小不能小于model数据库主要文件的大小
@@ -468,33 +468,33 @@ Resource：是一个只读数据库，包含了所有系统对象，SQLServer系
 最大大小
     是指文件增长的最大空间限制
 </code></pre>
-<h2 id="5-T-SQL创建数据库"><a href="#5-T-SQL创建数据库" class="headerlink" title="5 T-SQL创建数据库"></a>5 T-SQL创建数据库</h2><p>Create Database database_name<br>ON Primary%指定主文件组<br>(Name &#x3D;主文件名<br>FileName &#x3D;操作系统物理文件名<br>Size &#x3D; 文件的初始大小<br>Maxsize &#x3D; 文件最大值<br>FileGrowth &#x3D;指定文件的自动增量<br>)<br>LOG %指定日志文件<br>(Name &#x3D;<br>FileName &#x3D;<br>Size &#x3D;<br>Maxsize &#x3D;<br>FileGrowth &#x3D;<br>)<br>FileGroup<br>(Name &#x3D;<br>FileName &#x3D;<br>Size &#x3D;<br>Maxsize &#x3D;<br>FileGrowth &#x3D;<br>)</p>
-<h2 id="6-修改数据库"><a href="#6-修改数据库" class="headerlink" title="6 修改数据库"></a>6 修改数据库</h2><p>（1）扩大数据库空间</p>
-<p>添加数据文件<br>Alter DataBase database_name<br>ADD File(Name &#x3D;<br>FileName &#x3D;<br>Size &#x3D;<br>Maxsize &#x3D;<br>FileGrowth &#x3D;)<br>添加日志文件<br>Alter DataBase database_name<br>ADD LOG File(Name &#x3D;<br>FileName &#x3D;<br>Size &#x3D;<br>Maxsize &#x3D;<br>FileGrowth &#x3D;)<br>指定要修改的文件<br>Alter DataBase database_name<br>Modify File(Name &#x3D;<br>FileName &#x3D;<br>Size &#x3D;<br>Maxsize &#x3D;<br>FileGrowth &#x3D;)<br>（2） 收缩数据库空间</p>
-<p>收缩整个数据库大小<br>DBCC ShrinkDatabase<br>(DataBase_name,20)20表示20%<br>收缩指定文件大小<br>DBCC ShrinkFIle<br>(DataFIle_name,4)4表示4M<br>（3）添加和删除数据库文件</p>
-<p>添加文件(和创建数据库相同)<br>ALter DataBase<br>删除文件<br>Alter DataBase database_name<br>Remove File datafile_name</p>
-<h2 id="7-分离和附加数据库"><a href="#7-分离和附加数据库" class="headerlink" title="7 分离和附加数据库"></a>7 分离和附加数据库</h2><p>1）分离数据库</p>
-<p>Exec sp_detach_db ‘Database_name’,’True’<br>True表示跳过更新统计信息<br>（2）附加数据库<br>Create DataBase database_name<br>ON(FIlename&#x3D;’’<br>For Attach)</p>
-<h1 id="二、架构"><a href="#二、架构" class="headerlink" title="二、架构"></a>二、架构</h1><h2 id="1-概念"><a href="#1-概念" class="headerlink" title="1 概念"></a>1 概念</h2><p>是数据库下的一个逻辑命名空间，可以存放表、视图等数据库对象，是一个数据库对象的容器</p>
-<h2 id="2-定义架构"><a href="#2-定义架构" class="headerlink" title="2 定义架构"></a>2 定义架构</h2><p>Create Schema schema_name Authorization user_name</p>
-<h2 id="3-删除架构"><a href="#3-删除架构" class="headerlink" title="3 删除架构"></a>3 删除架构</h2><p>Drop Schema schema_name Cascade|Restrict<br>Cascade：删除架构的同时将架构中的所有架构对象一起全部删除<br>Restrict：如果被删除的架构中包含架构对象，则拒绝删除</p>
-<h1 id="三、分区表"><a href="#三、分区表" class="headerlink" title="三、分区表"></a>三、分区表</h1><h2 id="1-概念-1"><a href="#1-概念-1" class="headerlink" title="1 概念"></a>1 概念</h2><p>是将表中的数据按水平方式划分成不同的子集，这些数据子集存储在数据库的一个或多个文件组中。使用分区可以快速且有效地管理和访问数据子集，从而使大型表或索引更易于管理</p>
-<h2 id="2-创建分区表"><a href="#2-创建分区表" class="headerlink" title="2 创建分区表"></a>2 创建分区表</h2><p>（1）条件</p>
-<p>如果表中有大量的数据都是经常使用的数据，而且她们的操作方式基本一样的，则最好不要使用分区表<br>如果数据量大，而且数据是分段的，并且对不同段的数据使用的操作不同，则适用于使用分区表<br>（2）步骤<br>创建分区函数<br>Create Partition Function partition_function_name(input_type)<br>AS Range [ Left |Right] For Values(1,100,1000)<br>1<br>2<br>最后的数值表示分区指定边界值，表示四个分区</p>
-<p>创建分区方案<br>Create Partition Schema partition_schema_name As Partition partition_function_name [All] To (test1fg,test2fg,test3fg,test4fg)<br>1<br>使用分区方案创建表<br>Create Partition Function myRangePF1(int)<br>AS Range Left For Values(1,100,1000)<br>Go<br>Create Partition Schema myRangePS1 As Partition myRangePF1 To (test1fg,test2fg,test3fg,test4fg)<br>GO<br>Create Table PartitionTable(<br>coll int,<br>col2 char(10))<br>ON myRangePS1(col1);</p>
-<h1 id="四、索引"><a href="#四、索引" class="headerlink" title="四、索引"></a>四、索引</h1><h2 id="1-创建索引"><a href="#1-创建索引" class="headerlink" title="1 创建索引"></a>1 创建索引</h2><p>Create [Unique][Clustered |NonClustered ] INDEX index_name<br>ON<br>[Include ]指定要添加到非聚集索引叶级别的非键列<br>[Where]<br>[ON {partition_shema_name}指定分区方案{filegroup_name}]为指定文件组创建索引</p>
-<p>举例<br>（1）创建非聚集索引，要求索引键值Cname升序，CardID降序排序</p>
-<p>Create Index Comp_index ON Table_customer(Cname ASC,CardID DESC)<br>1<br>（2）创建分区索引，在TransHistory表和ReferOrderID列上为现有分区方案TransactionsPS1创建非聚集分区索引</p>
-<p>Create NonClustered INDEX index_name<br>ON TransHistory(RefreOrderID)<br>ON TransactionsPS1(TransactionDate);</p>
-<h2 id="2-删除索引"><a href="#2-删除索引" class="headerlink" title="2 删除索引"></a>2 删除索引</h2><p>Drop INDEX Index_name</p>
-<h1 id="五、索引视图"><a href="#五、索引视图" class="headerlink" title="五、索引视图"></a>五、索引视图</h1><h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1 基本概念"></a>1 基本概念</h2><p>标准视图也成虚拟表，因为这种视图所返回的结果集的格式与基本表基本相同，都是由列和行组成，而且在SQL语句中索引视图的方式也与索引基本表的方式相同。标准视图的结果集并不永久地存储在数据库中，每次通过标准视图查询数据时，数据库管理系统都会在内部将视图的定义替换为对基本表的查询语句，然后再对基本表进行查询</p>
-<h2 id="2-适合建立索引视图的场合"><a href="#2-适合建立索引视图的场合" class="headerlink" title="2 适合建立索引视图的场合"></a>2 适合建立索引视图的场合</h2><pre><code>如果很少更新基础数据，则索引视图的效果最佳
+<h2 id="5-T-SQL创建数据库"><a href="#5-T-SQL创建数据库" class="headerlink" title="5 T-SQL membuat database"></a>5 T-SQL membuat database</h2><p>Buat Basis Data nama_database<br>ON Primary%指定主文件组<br>(Nama = nama file utama<br>FileName =操作系统物理文件名<br>Ukuran = ukuran awal file<br>Maxsize = ukuran file maksimal<br>FileGrowth =Peningkatan otomatis file yang ditentukan<br>)<br>LOG% menentukan file log<br>(Nama =<br>Nama File =<br>Ukuran =<br>Ukuran maksimal =<br>Pertumbuhan File =<br>)<br>FileGroup<br>(Nama =<br>Nama File =<br>Ukuran =<br>Ukuran maksimal =<br>Pertumbuhan File =<br>)</p>
+<h2 id="6-修改数据库"><a href="#6-修改数据库" class="headerlink" title="6 Ubah basis data"></a>6 Ubah basis data</h2><p>(1) Perluas ruang basis data</p>
+<p>Tambahkan berkas data<br>Ubah nama_database DatabaseBase<br>TAMBAHKAN File(Nama =<br>Nama File =<br>Ukuran =<br>Ukuran maksimal =<br>Pertumbuhan File =)<br>Tambahkan file log<br>Ubah nama_database DatabaseBase<br>TAMBAHKAN File LOG(Nama =<br>Nama File =<br>Ukuran =<br>Ukuran maksimal =<br>Pertumbuhan File =)<br>Tentukan file yang akan diubah<br>Ubah nama_database DatabaseBase<br>Ubah File(Nama =<br>Nama File =<br>Ukuran =<br>Ukuran maksimal =<br>Pertumbuhan File =)<br>(2) Kecilkan ruang basis data</p>
+<p>Kecilkan seluruh ukuran database<br>Basis Data Penyusutan DBCC<br>(Nama_DataBase,20)20 berarti 20%<br>Kecilkan ukuran file yang ditentukan<br>File Penyusutan DBCC<br>(DataFIle_name,4)4 berarti 4M<br>(3) Menambah dan menghapus file database</p>
+<p>Tambahkan file (sama seperti membuat database)<br>Ubah Basis Data<br>Hapus file<br>Ubah nama_database DatabaseBase<br>Hapus File datafile_name</p>
+<h2 id="7-分离和附加数据库"><a href="#7-分离和附加数据库" class="headerlink" title="7 Melepaskan dan melampirkan database"></a>7 Melepaskan dan melampirkan database</h2><p>1) Basis data terpisah</p>
+<p>Jalankan sp_detach_db 'Nama_Database','Benar'<br>Benar berarti melewatkan pembaruan statistik<br>(2) Basis data tambahan<br>Buat nama_database Basis Data<br>AKTIF(NamaFile=''<br>Untuk Lampirkan)</p>
+<h1 id="二、架构"><a href="#二、架构" class="headerlink" title="2. Arsitektur"></a>2. Arsitektur</h1><h2 id="1-概念"><a href="#1-概念" class="headerlink" title="1 konsep"></a>1 konsep</h2><p>Ini adalah namespace logis di bawah database, yang dapat menyimpan objek database seperti tabel dan tampilan. Ini adalah wadah untuk objek database.</p>
+<h2 id="2-定义架构"><a href="#2-定义架构" class="headerlink" title="2 Tentukan arsitekturnya"></a>2 Tentukan arsitekturnya</h2><p>Buat Skema Schema_name Otorisasi nama_pengguna</p>
+<h2 id="3-删除架构"><a href="#3-删除架构" class="headerlink" title="3 Hapus skema"></a>3 Hapus skema</h2><p>Hapus Skema Schema_name Cascade|Batasi<br>Cascade: Saat menghapus skema, semua objek skema dalam skema juga akan dihapus.<br>Batasi: Menolak penghapusan jika skema yang dihapus berisi objek skema</p>
+<h1 id="三、分区表"><a href="#三、分区表" class="headerlink" title="3. Tabel partisi"></a>3. Tabel partisi</h1><h2 id="1-概念-1"><a href="#1-概念-1" class="headerlink" title="1 konsep"></a>1 konsep</h2><p>Ini membagi data dalam tabel menjadi himpunan bagian yang berbeda secara horizontal, dan himpunan bagian data ini disimpan dalam satu atau lebih grup file dalam database. Gunakan partisi untuk mengelola dan mengakses subkumpulan data dengan cepat dan efisien, membuat tabel atau indeks besar lebih mudah dikelola</p>
+<h2 id="2-创建分区表"><a href="#2-创建分区表" class="headerlink" title="2 Buat tabel partisi"></a>2 Buat tabel partisi</h2><p>(1) Kondisi</p>
+<p>Jika ada sejumlah besar data dalam tabel yang sering digunakan, dan operasinya pada dasarnya sama, sebaiknya tidak menggunakan tabel yang dipartisi.<br>Jika jumlah datanya besar, datanya tersegmentasi, dan operasi yang berbeda digunakan pada segmen data yang berbeda, maka cocok untuk menggunakan tabel yang dipartisi.<br>(2) Langkah<br>Buat fungsi partisi<br>Buat Fungsi Partisi nama_fungsi_partisi(tipe_input)<br>Rentang AS [ Kiri |Kanan] Untuk Nilai(1.100.1000)<br>1<br>2<br>最后的数值表示分区指定边界值，表示四个分区</p>
+<p>Buat rencana partisi<br>Buat Skema Partisi nama_skema_partisi Sebagai Nama_fungsi_partisi [Semua] Ke (test1fg,test2fg,test3fg,test4fg)<br>1<br>Buat tabel menggunakan skema partisi<br>Buat Fungsi Partisi myRangePF1(int)<br>Rentang AS Tersisa Untuk Nilai (1.100.1000)<br>Go<br>Buat Skema Partisi myRangePS1 Sebagai Partisi myRangePF1 Ke (test1fg,test2fg,test3fg,test4fg)<br>GO<br>Buat Tabel PartitionTable(<br>kumpulkan ke dalam,<br>col2 karakter(10))<br>DI myRangePS1(col1);</p>
+<h1 id="四、索引"><a href="#四、索引" class="headerlink" title="4. Indeks"></a>4. Indeks</h1><h2 id="1-创建索引"><a href="#1-创建索引" class="headerlink" title="1 Buat indeks"></a>1 Buat indeks</h2><p>Buat [Unik][Clustered |NonClustered ] INDEX index_name<br>ON<br>[Sertakan] menentukan kolom non-kunci yang akan ditambahkan ke tingkat daun indeks non-cluster<br>[Di mana]<br>[ON {partition_shema_name} menentukan skema partisi {filegroup_name}] untuk membuat indeks untuk grup file yang ditentukan</p>
+<p>Contoh<br>(1) Buat indeks non-cluster, yang mengharuskan nilai kunci indeks Cname diurutkan dalam urutan menaik dan CardID diurutkan dalam urutan menurun.</p>
+<p>Buat Indeks Comp_index PADA Table_customer (Cname ASC, CardID DESC)<br>1<br>(2) Buat indeks partisi dan buat indeks partisi non-cluster untuk skema partisi yang ada TransactionsPS1 pada tabel TransHistory dan kolom ReferOrderID</p>
+<p>Buat nama_indeks INDEX NonClustered<br>DI TransHistory(RefreOrderID)<br>PADA TransaksiPS1(Tanggal Transaksi);</p>
+<h2 id="2-删除索引"><a href="#2-删除索引" class="headerlink" title="2 Hapus indeks"></a>2 Hapus indeks</h2><p>Jatuhkan INDEX Index_name</p>
+<h1 id="五、索引视图"><a href="#五、索引视图" class="headerlink" title="5. Tampilan indeks"></a>5. Tampilan indeks</h1><h2 id="1-基本概念"><a href="#1-基本概念" class="headerlink" title="1 Konsep dasar"></a>1 Konsep dasar</h2><p>Tampilan standar juga merupakan tabel virtual, karena format kumpulan hasil yang dikembalikan oleh tampilan ini pada dasarnya sama dengan tabel dasar, terdiri dari kolom dan baris, dan cara mengindeks tampilan dalam pernyataan SQL sama dengan cara mengindeks tabel dasar. Kumpulan hasil tampilan standar tidak disimpan secara permanen dalam database. Setiap kali data ditanyakan melalui tampilan standar, sistem manajemen database akan secara internal mengganti definisi tampilan dengan pernyataan kueri untuk tabel dasar, dan kemudian mengkueri tabel dasar.</p>
+<h2 id="2-适合建立索引视图的场合"><a href="#2-适合建立索引视图的场合" class="headerlink" title="2 Kesempatan yang cocok untuk menetapkan tampilan yang diindeks"></a>2 Kesempatan yang cocok untuk menetapkan tampilan yang diindeks</h2><pre><code>如果很少更新基础数据，则索引视图的效果最佳
 如果经常更新基础数据，则维护索引视图的成本可能超过使用索引视图带来的性能收益
 如果基础数据以批处理的形式定期更新，但是在更新之间主要作为只读数据进行处理，可考虑在更新前删除所有索引视图，然后再重建索引视图，这样做可以提高更新的性能
 处理大量行的连接和聚合操作
 许多查询经常执行的链接和聚合操作
 </code></pre>
-<h2 id="3-定义索引视图"><a href="#3-定义索引视图" class="headerlink" title="3 定义索引视图"></a>3 定义索引视图</h2><pre><code>基本要求
+<h2 id="3-定义索引视图"><a href="#3-定义索引视图" class="headerlink" title="3 Tentukan tampilan indeks"></a>3 Tentukan tampilan indeks</h2><pre><code>基本要求
     定义索引视图时，视图不能引用任何其他视图，只能引用索引表
     视图引用的所有基本表必须与视图位于位于同一个数据库中，并且所有者也与视图相同
     必须使用SchemaBinding选项创建视图
@@ -502,21 +502,21 @@ Resource：是一个只读数据库，包含了所有系统对象，SQLServer系
     对视图创建的第一个索引必须是唯一聚集索引，之后再创建其他的非聚集索引
 %定义视图
 </code></pre>
-<p>举例<br>首先创建一个视图，并未该视图创建一个唯一聚聚索引，然后是一个使用该索引视图查询语句</p>
-<p>Create VIew Slaes,vOrders<br>With SchemaBinding<br>As<br>….<br>%定义索引视图<br>Go<br>Create Unique Clustered INDEX Idx_V1<br>ON Sales.vOrders (OrderDate,ProductID);<br>Go<br>…查询语句，不用From 索引视图</p>
+<p>Contoh<br>Pertama-tama buat tampilan, buat indeks berkerumun unik pada tampilan, lalu gunakan pernyataan kueri tampilan indeks</p>
+<p>Buat LIHAT Slaes,vOrders<br>Dengan Pengikatan Skema<br>As<br>….<br>%Tentukan tampilan indeks<br>Go<br>Buat INDEX Clustered Unik Idx_V1<br>PADA Penjualan.vOrders (Tanggal Pesanan,ID Produk);<br>Go<br>...pernyataan kueri tanpa menggunakan tampilan Dari indeks</p>
 
     </article>
     
     <div class="read-nums">
       <!-- id 将作为查询条件 -->
-      <span id="posts/sqlserver06/" class="leancloud_visitors" data-flag-title="Your Article Title">
-        <em class="post-meta-item-text">浏览量</em>
+      <span id="posts/sqlserver06/" class="leancloud_visitors" data-flag-title="Judul Artikel Anda">
+        <em class="post-meta-item-text">Jumlah kunjungan</em>
         <i class="leancloud-visitors-count"></i>
       </span>
     </div>
     <div class="comments-intro">
-      <h2>评论区</h2>
-      <p>欢迎你留下宝贵的意见，昵称输入QQ号会显示QQ头像哦~</p>
+      <h2>Kolom komentar</h2>
+      <p>Anda dipersilakan untuk meninggalkan komentar Anda yang berharga. Jika Anda memasukkan nomor QQ Anda sebagai nama panggilan Anda, avatar QQ Anda akan ditampilkan~</p>
     </div>
     <div id="vcomments" class="vcomments"></div>
     
@@ -524,21 +524,21 @@ Resource：是一个只读数据库，包含了所有系统对象，SQLServer系
   <div class="article-catelogue">
     <div class="article-catelogue--wrapper">
       <div class="catelogue catelogue-1">
-        <h3>目录</h3>
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%8A%E5%85%B6%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.</span> <span class="toc-text">第六章  数据库及其对象</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">1.1.</span> <span class="toc-text">数据库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%B6%E6%9E%84-%E6%9E%84%E6%9E%B6-%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.2.</span> <span class="toc-text">架构(构架)(模式)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E5%8C%BA%E8%A1%A8"><span class="toc-number">1.3.</span> <span class="toc-text">分区表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95"><span class="toc-number">1.4.</span> <span class="toc-text">索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%86%E5%9B%BE"><span class="toc-number">1.5.</span> <span class="toc-text">视图</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%88%9B%E5%BB%BA%E5%8F%8A%E7%BB%B4%E6%8A%A4%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.</span> <span class="toc-text">一、创建及维护数据库</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-SQL-Server%E4%BA%94%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.1.</span> <span class="toc-text">1. SQL Server五个数据库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%BB%84%E6%88%90"><span class="toc-number">2.2.</span> <span class="toc-text">2 组成</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6%E7%BB%84"><span class="toc-number">2.3.</span> <span class="toc-text">3 数据库文件组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6%E7%9A%84%E5%B1%9E%E6%80%A7"><span class="toc-number">2.4.</span> <span class="toc-text">4 数据库文件的属性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-T-SQL%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.5.</span> <span class="toc-text">5 T-SQL创建数据库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E4%BF%AE%E6%94%B9%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.6.</span> <span class="toc-text">6 修改数据库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E5%88%86%E7%A6%BB%E5%92%8C%E9%99%84%E5%8A%A0%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.7.</span> <span class="toc-text">7 分离和附加数据库</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%9E%B6%E6%9E%84"><span class="toc-number">3.</span> <span class="toc-text">二、架构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A6%82%E5%BF%B5"><span class="toc-number">3.1.</span> <span class="toc-text">1 概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%9A%E4%B9%89%E6%9E%B6%E6%9E%84"><span class="toc-number">3.2.</span> <span class="toc-text">2 定义架构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%88%A0%E9%99%A4%E6%9E%B6%E6%9E%84"><span class="toc-number">3.3.</span> <span class="toc-text">3 删除架构</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%88%86%E5%8C%BA%E8%A1%A8"><span class="toc-number">4.</span> <span class="toc-text">三、分区表</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A6%82%E5%BF%B5-1"><span class="toc-number">4.1.</span> <span class="toc-text">1 概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%88%9B%E5%BB%BA%E5%88%86%E5%8C%BA%E8%A1%A8"><span class="toc-number">4.2.</span> <span class="toc-text">2 创建分区表</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E7%B4%A2%E5%BC%95"><span class="toc-number">5.</span> <span class="toc-text">四、索引</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%88%9B%E5%BB%BA%E7%B4%A2%E5%BC%95"><span class="toc-number">5.1.</span> <span class="toc-text">1 创建索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%88%A0%E9%99%A4%E7%B4%A2%E5%BC%95"><span class="toc-number">5.2.</span> <span class="toc-text">2 删除索引</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%B4%A2%E5%BC%95%E8%A7%86%E5%9B%BE"><span class="toc-number">6.</span> <span class="toc-text">五、索引视图</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">6.1.</span> <span class="toc-text">1 基本概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E9%80%82%E5%90%88%E5%BB%BA%E7%AB%8B%E7%B4%A2%E5%BC%95%E8%A7%86%E5%9B%BE%E7%9A%84%E5%9C%BA%E5%90%88"><span class="toc-number">6.2.</span> <span class="toc-text">2 适合建立索引视图的场合</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%AE%9A%E4%B9%89%E7%B4%A2%E5%BC%95%E8%A7%86%E5%9B%BE"><span class="toc-number">6.3.</span> <span class="toc-text">3 定义索引视图</span></a></li></ol></li></ol>
+        <h3>Daftar isi</h3>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%8A%E5%85%B6%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.</span> <span class="toc-text">Bab 6 Basis Data dan Objeknya</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">1.1.</span> <span class="toc-text">basis data</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%B6%E6%9E%84-%E6%9E%84%E6%9E%B6-%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.2.</span> <span class="toc-text">Arsitektur (kerangka) (pola)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E5%8C%BA%E8%A1%A8"><span class="toc-number">1.3.</span> <span class="toc-text">tabel partisi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95"><span class="toc-number">1.4.</span> <span class="toc-text">indeks</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%86%E5%9B%BE"><span class="toc-number">1.5.</span> <span class="toc-text">melihat</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%88%9B%E5%BB%BA%E5%8F%8A%E7%BB%B4%E6%8A%A4%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.</span> <span class="toc-text">1. Membuat dan memelihara database</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-SQL-Server%E4%BA%94%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.1.</span> <span class="toc-text">1. SQL Server lima database</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%BB%84%E6%88%90"><span class="toc-number">2.2.</span> <span class="toc-text">2 komposisi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6%E7%BB%84"><span class="toc-number">2.3.</span> <span class="toc-text">3 grup file basis data</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%96%87%E4%BB%B6%E7%9A%84%E5%B1%9E%E6%80%A7"><span class="toc-number">2.4.</span> <span class="toc-text">4 Properti file database</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-T-SQL%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.5.</span> <span class="toc-text">5 T-SQL membuat database</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E4%BF%AE%E6%94%B9%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.6.</span> <span class="toc-text">6 Ubah basis data</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E5%88%86%E7%A6%BB%E5%92%8C%E9%99%84%E5%8A%A0%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">2.7.</span> <span class="toc-text">7 Melepaskan dan melampirkan database</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%9E%B6%E6%9E%84"><span class="toc-number">3.</span> <span class="toc-text">2. Arsitektur</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A6%82%E5%BF%B5"><span class="toc-number">3.1.</span> <span class="toc-text">1 konsep</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%9A%E4%B9%89%E6%9E%B6%E6%9E%84"><span class="toc-number">3.2.</span> <span class="toc-text">2 Tentukan arsitekturnya</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%88%A0%E9%99%A4%E6%9E%B6%E6%9E%84"><span class="toc-number">3.3.</span> <span class="toc-text">3 Hapus skema</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%88%86%E5%8C%BA%E8%A1%A8"><span class="toc-number">4.</span> <span class="toc-text">3. Tabel partisi</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A6%82%E5%BF%B5-1"><span class="toc-number">4.1.</span> <span class="toc-text">1 konsep</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%88%9B%E5%BB%BA%E5%88%86%E5%8C%BA%E8%A1%A8"><span class="toc-number">4.2.</span> <span class="toc-text">2 Buat tabel partisi</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E7%B4%A2%E5%BC%95"><span class="toc-number">5.</span> <span class="toc-text">4. Indeks</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%88%9B%E5%BB%BA%E7%B4%A2%E5%BC%95"><span class="toc-number">5.1.</span> <span class="toc-text">1 Buat indeks</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%88%A0%E9%99%A4%E7%B4%A2%E5%BC%95"><span class="toc-number">5.2.</span> <span class="toc-text">2 Hapus indeks</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%B4%A2%E5%BC%95%E8%A7%86%E5%9B%BE"><span class="toc-number">6.</span> <span class="toc-text">5. Tampilan indeks</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">6.1.</span> <span class="toc-text">1 Konsep dasar</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E9%80%82%E5%90%88%E5%BB%BA%E7%AB%8B%E7%B4%A2%E5%BC%95%E8%A7%86%E5%9B%BE%E7%9A%84%E5%9C%BA%E5%90%88"><span class="toc-number">6.2.</span> <span class="toc-text">2 Kesempatan yang cocok untuk menetapkan tampilan yang diindeks</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%AE%9A%E4%B9%89%E7%B4%A2%E5%BC%95%E8%A7%86%E5%9B%BE"><span class="toc-number">6.3.</span> <span class="toc-text">3 Tentukan tampilan indeks</span></a></li></ol></li></ol>
       </div>
       
         <div class="catelogue catelogue-2">
           
             <p>
-              <span>上一篇：</span>
-              <a href="/posts/sqlserver07/">『SQL Server』第七章  高级数据库查询</a>
+              <span>Artikel sebelumnya:</span>
+              <a href="/posts/sqlserver07/">"SQL Server" Bab 7 Kueri Basis Data Tingkat Lanjut</a>
             </p>
            
           
             <p>
-              <span>下一篇</span>
-              <a href="/posts/pythonrdom/">第某章  random 库</a>
+              <span>Artikel berikutnya</span>
+              <a href="/posts/pythonrdom/">Bab 1 perpustakaan acak</a>
             </p>
           
         </div>
@@ -551,7 +551,7 @@ Resource：是一个只读数据库，包含了所有系统对象，SQLServer系
 
 <script>
   // var定义，避免pjax重新进来造成的重复声明错误
-  var config = JSON.parse('{"enable":true,"appId":"Pf8zCXGEH1qsprnWfikVVujL-gzGzoHsz","appKey":"qOqoiUHhH1TGtLRUYURkLRQX","placeholder":"请留下你宝贵的意见吧~","meta":["nick"],"recordIP":true,"visitor":true,"enableQQ":true}')
+  var config = JSON.parse('{"enable":true,"appId":"Pf8zCXGEH1qsprnWfikVVujL-gzGzoHsz","appKey":"qOqoiUHhH1TGtLRUYURkLRQX","placeholder":"Silakan tinggalkan komentar Anda yang berharga~","meta":["nick"],"recordIP":true,"visitor":true,"enableQQ":true}')
   new Valine({
     el: '#vcomments',
     appId: config.appId,
@@ -591,7 +591,7 @@ Resource：是一个只读数据库，包含了所有系统对象，SQLServer系
       <div class="main-right-wrapper"><div class="main-right">
   <div class="main-right--board">
     <div class="main-right--title">
-      <h5>公告栏</h5>
+      <h5>Papan pengumuman</h5>
       <i class="iconfont icon-gonggao"></i>
     </div>
     <style>
@@ -717,7 +717,7 @@ Resource：是一个只读数据库，包含了所有系统对象，SQLServer系
   </div>
   <script type="text/javascript">$(function () { var max_num = 4; var time_stop = 4250; var time_swap = 1250; var num = 0; var chosen_circle_color = "#0aa1ed"; var chosen_not_circle_color = "#ffffff"; function every_thing() { $("#div_img").animate({ left: -$(".every_img").eq(0).width() * num }, time_swap); $(".every_circle").eq(num).css("background", chosen_circle_color).siblings('li').css("background", chosen_not_circle_color); } function Right_move() { if (num >= max_num) { num = 0; } else { num++; } every_thing(); } function Left_move() { if (num === 0) { num = max_num; } else { num--; } every_thing(); } $(".every_circle").eq(0).css("background", chosen_circle_color); $("#div_img").width($('.every_img').length * $('.every_img').eq(0).width()); var id = setInterval(Right_move, time_stop); $("#carousel_main").mouseover(function () { clearInterval(id) }); $("#carousel_main").mouseout(function () { id = setInterval(Right_move, time_stop); }); $(".left").click(function () { $("#div_img").stop(); Left_move(); }); $(".right").click(function () { $("#div_img").stop(); Right_move(); }); $(".every_circle").mouseover(function () { num = $(this).index(); $("#div_img").stop(); every_thing(); }); }); function link(jinliweili_Url, quality_target) { window.open(jinliweili_Url, quality_target);}</script>
     <div class="main-right--content">
-      Hello~大噶好。锦鲤未离。测试文字测试测试测试测试测试测试测试测试，测试测试测试测试测试测试。 
+      Halo ~ Selamat siang. Koinya tetap ada. Tes tes teks tes tes tes tes tes tes tes tes tes tes. 
     </div>
   </div>
 
@@ -726,23 +726,23 @@ Resource：是一个只读数据库，包含了所有系统对象，SQLServer系
   <div class="operate-items">
     <div class="operate-item backtop">
       <i class="iconfont icon-huidaodingbu"></i>
-      <span>回到顶部</span>
+      <span>kembali ke atas</span>
     </div>
     
     <div class="operate-item turn-comment hidden">
       <i class="iconfont icon-pinglun"></i>
-      <span>查看评论</span>
+      <span>Lihat komentar</span>
     </div>
     
   </div>
 
   <div class="main-right--site">
     <div class="main-right--power">
-      <p>Power By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>.</p>
+      <p>Ditenagai oleh <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>.</p>
 
-      <p>Theme：<a href="">koinl.</a></p>
+      <p>Tema:<a href="">koinl.</a></p>
     </div>
-    <p class="main-right--refer"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index">信息来源于锦鲤未离</a> </p>
+    <p class="main-right--refer"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index">Informasi berasal dari Koinl</a> </p>
   </div>
 </div>
 

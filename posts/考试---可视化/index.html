@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的技术与生活——考试---可视化 | 锦鲤未离</title>
+  <title>Teknologi dan Kehidupan Saya - Ujian - Visualisasi | Koi Wei Li</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="/imgs/shortcut-icon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/public.css" />
@@ -17,7 +17,7 @@
 
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <script>
-    document.title = `我的技术与生活——考试---可视化`
+    document.title = `Teknologi dan Kehidupan Saya - Ujian - Visualisasi`
   </script>
 <meta name="generator" content="Hexo 6.1.0"></head>
 
@@ -147,13 +147,13 @@
   <div class="header-wrapper">
     <div class="header-left">
       <div class="header-search">
-        <input id="search-input" type="text" class="header-search--input" placeholder="请输入要检索的文章标题" />
+        <input id="search-input" type="text" class="header-search--input" placeholder="Masukkan judul artikel yang ingin dicari" />
         <span id="search-btn" class="header-search--icon"><i class="iconfont icon-sousuo"></i></span>
       </div>
       <div id="search-layer" class="header-search--layer hidden">
         <p class="title">
-          <span>以下是搜索内容：</span>
-          <span id="close-layer-btn">关闭</span>
+          <span>Hasil pencarian:</span>
+          <span id="close-layer-btn">Tutup</span>
         </p>
         <ul>
         </ul>
@@ -162,27 +162,27 @@
     <div class="header-right">
       <ul class="header-menu">
         <li>
-          <a href="http://example.com/">
+          <a href="/">
             <i class="header-menu--icon iconfont icon-shouye"></i>
-            <span class="header-menu--span">首页</span>
+            <span class="header-menu--span">Beranda</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/log">
+          <a href="/log">
             <i class="header-menu--icon iconfont icon-rizhi"></i>
-            <span class="header-menu--span">日志</span>
+            <span class="header-menu--span">Catatan</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/link">
+          <a href="/link">
             <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
-            <span class="header-menu--span">友情链接</span>
+            <span class="header-menu--span">Tautan</span>
           </a>
         </li>
         <li>
-          <a href="http://example.com/about">
+          <a href="/about">
             <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
-            <span class="header-menu--span">关于我</span>
+            <span class="header-menu--span">Tentang saya</span>
           </a>
         </li>
       </ul>
@@ -194,7 +194,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"⌊手机篇⌉ 将手机投屏到电脑","path":"posts/EDp-scrcpy/"},{"title":"⌊电脑篇⌉ 电脑声音无法出现","path":"posts/EDc-sound/"},{"title":"Hello World","path":"posts/3eeb/"},{"title":"小贴士~","path":"posts/tips/"},{"title":"数据库实训-Eclipse 连接 MySQL","path":"posts/EconnectM/"},{"title":"本篇用于测试样式","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"配置hadoop","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"第1章  Scala语言基础.","path":"posts/spark_01/"},{"title":"第3章  Spark RDD弹性分布式数据集","path":"posts/spark_03/"},{"title":"第4章  Spark SQL结构化数据文件处理","path":"posts/spark_04/"},{"title":"第5章  HBase 分布式数据库","path":"posts/spark_05/"},{"title":"第6章  Kafka分布式发布订阅消息系统","path":"posts/spark_06/"},{"title":"第7章  Spark Streaming","path":"posts/spark_07/"},{"title":"第8章  Spark MLlib机器学习算法库","path":"posts/spark_08/"},{"title":"第1章  时间序列分析","path":"posts/Time-Series_Analysis_ALL/"},{"title":"第1章  深度卷积神经网络分析","path":"posts/DCNN_ALL/"},{"title":"考试---可视化","path":"posts/考试---可视化/"},{"title":"第三章  程序流程控制[未完成]","path":"posts/matlab03/"},{"title":"应用篇-第一章  图形对象句柄[未完成]","path":"posts/matlab09/"},{"title":"第五章  数据分析与多项式计算[未完成]","path":"posts/matlab05/"},{"title":"应用篇-第二章  图形对用户界面设计[未完成]","path":"posts/matlabyyp02/"},{"title":"第四章 绘图[未完成]","path":"posts/matlab04/"},{"title":"程序流程控制","path":"posts/java-cxlckz/"},{"title":"消息, 继承与多态","path":"posts/java-xxjcydt/"},{"title":"第六章  数组","path":"posts/java-sz/"},{"title":"键盘输值","path":"posts/java-wjyl/"},{"title":"封装机制与访问控制","path":"posts/java-fzjzyfwkz/"},{"title":"第四章  类与对象","path":"posts/java-lydx/"},{"title":"递归调用","path":"posts/java-dgdy/"},{"title":"『SQL Server』第一章  数据库应用系统开发方法","path":"posts/sqlserver01/"},{"title":"『SQL Server』第七章  高级数据库查询","path":"posts/sqlserver07/"},{"title":"『SQL Server』第三章  系统设计","path":"posts/sqlserver03/"},{"title":"『SQL Server』第九章  安全管理","path":"posts/sqlserver09/"},{"title":"『SQL Server』第二章  需求分析","path":"posts/sqlserver02/"},{"title":"『SQL Server』第五章  UML与DBAS","path":"posts/sqlserver05/"},{"title":"『SQL Server』第八章  数据库后台编程技术","path":"posts/sqlserver08/"},{"title":"『SQL Server』第六章  数据库及其对象.md","path":"posts/sqlserver06/"},{"title":"『SQL Server』第十一章  故障管理","path":"posts/sqlserver11/"},{"title":"『SQL Server』第十三章  大规模数据库架构","path":"posts/sqlserver13/"},{"title":"『SQL Server』第十四章  数据仓库与数据挖掘","path":"posts/sqlserver14/"},{"title":"『SQL Server』第十二章  备份与恢复数据库","path":"posts/sqlserver12/"},{"title":"『SQL Server』第十章  数据库运行管理与维护","path":"posts/sqlserver10/"},{"title":"『SQL Server』第四章  应用系统功能设计","path":"posts/sqlserver04/"},{"title":"『SQL Server』考三","path":"posts/sqlserver3/"},{"title":"『SQL Server』考二","path":"posts/sqlserver2/"},{"title":"三级考试(数据库篇)错题整理(选择题, 填空题篇)","path":"posts/sqlservers/"},{"title":"第一章  操作基础","path":"posts/linux01/"},{"title":"第二章  进程管理","path":"posts/linux02/"},{"title":"第三章  存储和逻辑卷管理","path":"posts/linux03/"},{"title":"第四章  用户和组管理","path":"posts/linux04/"},{"title":"第六章  用户管理","path":"posts/linux05/"},{"title":"第六章  网络基础","path":"posts/linux06/"},{"title":"安全管理","path":"posts/linux07/"},{"title":"第十章 Shell 脚本","path":"posts/linux08/"},{"title":"第一章  操作基础","path":"posts/linuxlianxizuoye/"},{"title":"第八章  计算生态","path":"posts/python08/"},{"title":"第九章  标准库概览","path":"posts/python09/"},{"title":"第七章  文件和数据格式化","path":"posts/python07/"},{"title":"第十章  第三方库概览","path":"posts/python10/"},{"title":"第一章  程序基本结构","path":"posts/py01/"},{"title":"第一章  程序基本结构","path":"posts/py01/"},{"title":"第三章  组合数据类型","path":"posts/py03/"},{"title":"第某章  random 库","path":"posts/pythonrdom/"},{"title":"第某章  PIL 库","path":"posts/py0nnnpillow/"},{"title":"第某章  turtle 库","path":"posts/py0nnn/"},{"title":"第二章  函数","path":"posts/py02/"},{"title":"第五章  文件操作","path":"posts/python05/"},{"title":"第六章  第三方生态","path":"posts/python06/"},{"title":"第一章  排序","path":"posts/dsa04/"},{"title":"第一章  线性表","path":"posts/dsa01/"},{"title":"第二章  查找","path":"posts/dsa05/"},{"title":"第三章  图","path":"posts/dsa03/"},{"title":"第二章  树和二叉树","path":"posts/dsa02/"},{"title":"绪论  聊聊需要的软件","path":"posts/hadoop00/"},{"title":"第一章  分布式文件系统（HDFS）概述","path":"posts/hadoop01/"},{"title":"第二章  磁盘I/O操作","path":"posts/hadoop02/"},{"title":"第三章  MapReduce基础","path":"posts/hadoop03/"},{"title":"第一章  数据计算（NumPy）","path":"posts/DPaA01/"},{"title":"第二章  数据分析（Pandas）","path":"posts/DPaA02/"},{"title":"第三章  数据可视化（Matplotlib）","path":"posts/DPaA03/"},{"title":"第四章  数据预处理","path":"posts/DPaA04/"},{"title":"第 4 章  抽样推断","path":"posts/as04/"},{"title":"第一章 待补充...","path":"posts/DM01/"}]`)
+  const posts = JSON.parse(`[{"title":"⌊Ponsel⌉ Cerminkan layar ponsel ke komputer","path":"posts/EDp-scrcpy/"},{"title":"⌊Bab Komputer⌉ Suara komputer tidak dapat muncul","path":"posts/EDc-sound/"},{"title":"Halo Dunia","path":"posts/3eeb/"},{"title":"Kiat~","path":"posts/tips/"},{"title":"Pelatihan database-Koneksi Eclipse ke MySQL","path":"posts/EconnectM/"},{"title":"Artikel ini digunakan untuk menguji gaya","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"penempatan hadoop","path":"posts/This-article-is-used-to-test-the-style/"},{"title":"Bab 1 Dasar-dasar bahasa Scala.","path":"posts/spark_01/"},{"title":"Bab 3 Kumpulan Data Terdistribusi Elastis Spark RDD","path":"posts/spark_03/"},{"title":"Bab 4 Pemrosesan File Data Terstruktur Spark SQL","path":"posts/spark_04/"},{"title":"Bab 5 Basis Data Terdistribusi HBase","path":"posts/spark_05/"},{"title":"Bab 6 Sistem Pesan Publikasikan-Berlangganan Terdistribusi Kafka","path":"posts/spark_06/"},{"title":"Bab 7 Percikan Streaming","path":"posts/spark_07/"},{"title":"Bab 8 Perpustakaan Algoritma Pembelajaran Mesin Spark MLlib","path":"posts/spark_08/"},{"title":"Bab 1 Analisis Rangkaian Waktu","path":"posts/Time-Series_Analysis_ALL/"},{"title":"Bab 1 Analisis Jaringan Syaraf Konvolusional Mendalam","path":"posts/DCNN_ALL/"},{"title":"Ujian---Visualisasi","path":"posts/考试---可视化/"},{"title":"Bab 3 Kontrol Aliran Program [Belum Selesai]","path":"posts/matlab03/"},{"title":"Aplikasi - Bab 1 Pegangan Objek Grafis [Belum Selesai]","path":"posts/matlab09/"},{"title":"Bab 5 Analisis Data dan Perhitungan Polinomial [Belum Selesai]","path":"posts/matlab05/"},{"title":"Aplikasi - Bab 2 Desain Grafis dan Antarmuka Pengguna [Belum Selesai]","path":"posts/matlabyyp02/"},{"title":"Bab 4 Menggambar [Belum Selesai]","path":"posts/matlab04/"},{"title":"pengendalian aliran program","path":"posts/java-cxlckz/"},{"title":"Pesan, warisan dan polimorfisme","path":"posts/java-xxjcydt/"},{"title":"Bab 6 Pengaturan","path":"posts/java-sz/"},{"title":"Masukan papan ketik","path":"posts/java-wjyl/"},{"title":"Mekanisme enkapsulasi dan kontrol akses","path":"posts/java-fzjzyfwkz/"},{"title":"Bab 4 Kelas dan Objek","path":"posts/java-lydx/"},{"title":"panggilan rekursif","path":"posts/java-dgdy/"},{"title":"\"SQL Server\" Bab 1 Metode Pengembangan Sistem Aplikasi Basis Data","path":"posts/sqlserver01/"},{"title":"\"SQL Server\" Bab 7 Kueri Basis Data Tingkat Lanjut","path":"posts/sqlserver07/"},{"title":"\"SQL Server\" Bab 3 Desain Sistem","path":"posts/sqlserver03/"},{"title":"\"SQL Server\" Bab 9 Manajemen Keamanan","path":"posts/sqlserver09/"},{"title":"Analisis Persyaratan \"SQL Server\" Bab 2","path":"posts/sqlserver02/"},{"title":"\"SQL Server\" Bab 5 UML dan DBAS","path":"posts/sqlserver05/"},{"title":"\"SQL Server\" Bab 8 Teknologi Pemrograman Backend Basis Data","path":"posts/sqlserver08/"},{"title":"Database \"SQL Server\" Bab 6 dan Objeknya.md","path":"posts/sqlserver06/"},{"title":"\"SQL Server\" Bab 11 Manajemen Kesalahan","path":"posts/sqlserver11/"},{"title":"\"SQL Server\" Bab 13 Arsitektur Basis Data Skala Besar","path":"posts/sqlserver13/"},{"title":"\"SQL Server\" Bab 14 Pergudangan Data dan Penambangan Data","path":"posts/sqlserver14/"},{"title":"\"SQL Server\" Bab 12 Mencadangkan dan memulihkan database","path":"posts/sqlserver12/"},{"title":"\"SQL Server\" Bab 10 Manajemen dan Pemeliharaan Operasi Basis Data","path":"posts/sqlserver10/"},{"title":"\"SQL Server\" Bab 4 Desain Fungsi Sistem Aplikasi","path":"posts/sqlserver04/"},{"title":"Tes \"SQL Server\" ketiga","path":"posts/sqlserver3/"},{"title":"Ujian \"SQL Server\" 2","path":"posts/sqlserver2/"},{"title":"Memilah soal yang salah pada ujian Level 3 (bagian database) (soal pilihan ganda, soal isian yang kosong)","path":"posts/sqlservers/"},{"title":"Bab 1 Dasar-dasar Pengoperasian","path":"posts/linux01/"},{"title":"Bab 2 Manajemen Proses","path":"posts/linux02/"},{"title":"Bab 3 Penyimpanan dan Manajemen Volume Logis","path":"posts/linux03/"},{"title":"Bab 4 Manajemen Pengguna dan Grup","path":"posts/linux04/"},{"title":"Bab 6 Manajemen Pengguna","path":"posts/linux05/"},{"title":"Bab 6 Dasar-Dasar Jaringan","path":"posts/linux06/"},{"title":"Manajemen keamanan","path":"posts/linux07/"},{"title":"Bab 10 Skrip Shell","path":"posts/linux08/"},{"title":"Bab 1 Dasar-dasar Pengoperasian","path":"posts/linuxlianxizuoye/"},{"title":"Bab 8 Ekologi Komputasi","path":"posts/python08/"},{"title":"Bab 9 Ikhtisar Perpustakaan Standar","path":"posts/python09/"},{"title":"Bab 7 Pemformatan File dan Data","path":"posts/python07/"},{"title":"Bab 10 Ikhtisar Perpustakaan Pihak Ketiga","path":"posts/python10/"},{"title":"Bab 1 Struktur Dasar Program","path":"posts/py01/"},{"title":"Bab 1 Struktur Dasar Program","path":"posts/py01/"},{"title":"Bab 3 Tipe Data Gabungan","path":"posts/py03/"},{"title":"Bab 1 perpustakaan acak","path":"posts/pythonrdom/"},{"title":"Bab 1 Perpustakaan PIL","path":"posts/py0nnnpillow/"},{"title":"Bab 1 perpustakaan penyu","path":"posts/py0nnn/"},{"title":"Bab 2 Fungsi","path":"posts/py02/"},{"title":"Bab 5 Operasi File","path":"posts/python05/"},{"title":"Bab 6 Ekologi Pihak Ketiga","path":"posts/python06/"},{"title":"Bab 1 Penyortiran","path":"posts/dsa04/"},{"title":"Bab 1 Tabel Linier","path":"posts/dsa01/"},{"title":"Bab 2 Pencarian","path":"posts/dsa05/"},{"title":"Bab 3 Gambar","path":"posts/dsa03/"},{"title":"Bab 2 Pohon dan Pohon Biner","path":"posts/dsa02/"},{"title":"Pendahuluan Mari kita bicara tentang perangkat lunak yang kita butuhkan","path":"posts/hadoop00/"},{"title":"Bab 1 Ikhtisar Sistem File Terdistribusi (HDFS)","path":"posts/hadoop01/"},{"title":"Bab 2 Operasi I/O Disk","path":"posts/hadoop02/"},{"title":"Bab 3 Dasar-dasar MapReduce","path":"posts/hadoop03/"},{"title":"Bab 1 Komputasi Data (NumPy)","path":"posts/DPaA01/"},{"title":"Bab 2 Analisis Data (Panda)","path":"posts/DPaA02/"},{"title":"Bab 3 Visualisasi Data (Matplotlib)","path":"posts/DPaA03/"},{"title":"Bab 4 Pemrosesan Awal Data","path":"posts/DPaA04/"},{"title":"Bab 4 Inferensi Pengambilan Sampel","path":"posts/as04/"},{"title":"Bab 1 Akan ditambahkan...","path":"posts/DM01/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -225,7 +225,7 @@
       `
     })
     if (html.trim () === '') {
-      html += '<p class="empty">没有搜索到内容</p>'
+      html += '<p class="empty">Tidak ada hasil pencarian</p>'
     }
     layer.querySelector('ul').innerHTML = html
     layer.classList.remove('hidden')
@@ -273,20 +273,20 @@
   }
 }
       </style>
-      <img src="/imgs/avatar.jpg"" class="main-left--avatar" />
+      <img src="/imgs/avatar.jpg" class="main-left--avatar" />
       <div class="main-left--intro">
         <p class="main-left--name">KoiNL.</p>
         <div class="main-left--tags">
-          <span class="main-left--tag">中二</span>
-          <span class="main-left--tag">宅</span>
+          <span class="main-left--tag">chuunibyou</span>
+          <span class="main-left--tag">rumahan</span>
         </div>
       </div>
     </div>
   
     <div>
       <div class="main-left--motto">
-        <p>“锦鲤握运，未离我韵”</p>
-        <p>“愿好运常在”</p>
+        <p>"Koi memegang keberuntungan, sajaknya tidak pernah meninggalkanku"</p>
+        <p>"Semoga keberuntungan selalu menyertaimu"</p>
       </div>
       <div class="main-left--github">
         <span class="line"></span>
@@ -297,19 +297,19 @@
         <a href="/categories">
           <div>
             <span>16</span>
-            <span>分类</span>
+            <span>Kategori</span>
           </div>
         </a>
         <a href="/tags">
           <div>
             <span>0</span>
-            <span>标签</span>
+            <span>Label</span>
           </div>
         </a>
         <a href="/archives">
           <div>
             <span>14 </span>
-            <span>归档</span>
+            <span>Arsip</span>
           </div>
         </a>
       </div>
@@ -321,35 +321,35 @@
       
         <li>
           <a href="/">
-            <span class="header-menu--span">小站首页</span>
+            <span class="header-menu--span">Beranda situs</span>
             <i class="header-menu--icon iconfont icon-shouye"></i>
           </a>
         </li>
       
         <li>
           <a href="/log">
-            <span class="header-menu--span">个人日志</span>
+            <span class="header-menu--span">Catatan pribadi</span>
             <i class="header-menu--icon iconfont icon-rizhi"></i>
           </a>
         </li>
       
         <li>
           <a href="/link">
-            <span class="header-menu--span">友情链接</span>
+            <span class="header-menu--span">Tautan</span>
             <i class="header-menu--icon iconfont icon-youqinglianjie"></i>
           </a>
         </li>
       
         <li>
           <a href="/about">
-            <span class="header-menu--span">关于自己</span>
+            <span class="header-menu--span">Tentang saya</span>
             <i class="header-menu--icon iconfont icon-guanyuwomen"></i>
           </a>
         </li>
       
         <li>
           <a href="/tools">
-            <span class="header-menu--span">我的工具</span>
+            <span class="header-menu--span">Alat saya</span>
             <i class="header-menu--icon iconfont icon-gongju"></i>
           </a>
         </li>
@@ -360,23 +360,23 @@
   <div class="main-left--block">
     <div class="main-left--site">
       <h5 class="main-left--title">
-        <span>站点信息</span>
+        <span>Informasi situs</span>
         <i class="iconfont icon-zhandian"></i>
       </h5>
       <p class="main-left--subtitle">
-        <span>文章数目：</span>
-        <span>83 篇</span>
+        <span>Jumlah artikel:</span>
+        <span>83 artikel</span>
       </p>
       <p class="main-left--subtitle">
-        <span>最近动态：</span>
-        <span>4周前</span>
+        <span>Berita terbaru:</span>
+        <span>4 minggu yang lalu</span>
       </p>
       <p class="main-left--subtitle">
-        <span>上线时间：</span>
-        <span>471天</span>
+        <span>Waktu online:</span>
+        <span>471 hari</span>
       </p>
       <p class="main-left--subtitle">
-        <span>当前版本：</span>
+        <span>Versi saat ini:</span>
         <span>v3.0.0</span>
       </p>
     </div>
@@ -409,19 +409,19 @@ pre:active {
 
 <div class="article-container">
   <div class="article">
-    <h1 class="article-title">考试---可视化</h1>
+    <h1 class="article-title">Ujian---Visualisasi</h1>
     <div class="article-info">
       <div class="article-info--item">
         <div class="article-info--info">
           
           <div class="article-info--categories">
-            <span>分类：</span>
-            <a class="category-link" href="/categories/%E8%80%83%E8%AF%95/">考试</a>
+            <span>Kategori:</span>
+            <a class="category-link" href="/categories/%E8%80%83%E8%AF%95/">mengikuti ujian</a>
           </div>
           
           
           <div class="article-info--tags">
-            <span>标签：</span>
+            <span>Label:</span>
             
           </div>
           
@@ -436,14 +436,14 @@ pre:active {
     
     <div class="read-nums">
       <!-- id 将作为查询条件 -->
-      <span id="posts/考试---可视化/" class="leancloud_visitors" data-flag-title="Your Article Title">
-        <em class="post-meta-item-text">浏览量</em>
+      <span id="posts/考试---可视化/" class="leancloud_visitors" data-flag-title="Judul Artikel Anda">
+        <em class="post-meta-item-text">Jumlah kunjungan</em>
         <i class="leancloud-visitors-count"></i>
       </span>
     </div>
     <div class="comments-intro">
-      <h2>评论区</h2>
-      <p>欢迎你留下宝贵的意见，昵称输入QQ号会显示QQ头像哦~</p>
+      <h2>Kolom komentar</h2>
+      <p>Anda dipersilakan untuk meninggalkan komentar Anda yang berharga. Jika Anda memasukkan nomor QQ Anda sebagai nama panggilan Anda, avatar QQ Anda akan ditampilkan~</p>
     </div>
     <div id="vcomments" class="vcomments"></div>
     
@@ -451,21 +451,21 @@ pre:active {
   <div class="article-catelogue">
     <div class="article-catelogue--wrapper">
       <div class="catelogue catelogue-1">
-        <h3>目录</h3>
+        <h3>Daftar isi</h3>
         
       </div>
       
         <div class="catelogue catelogue-2">
           
             <p>
-              <span>上一篇：</span>
-              <a href="/posts/Time-Series_Analysis_ALL/">第1章  时间序列分析</a>
+              <span>Artikel sebelumnya:</span>
+              <a href="/posts/Time-Series_Analysis_ALL/">Bab 1 Analisis Rangkaian Waktu</a>
             </p>
            
           
             <p>
-              <span>下一篇</span>
-              <a href="/posts/EconnectM/">数据库实训-Eclipse 连接 MySQL</a>
+              <span>Artikel berikutnya</span>
+              <a href="/posts/EconnectM/">Pelatihan database-Koneksi Eclipse ke MySQL</a>
             </p>
           
         </div>
@@ -478,7 +478,7 @@ pre:active {
 
 <script>
   // var定义，避免pjax重新进来造成的重复声明错误
-  var config = JSON.parse('{"enable":true,"appId":"Pf8zCXGEH1qsprnWfikVVujL-gzGzoHsz","appKey":"qOqoiUHhH1TGtLRUYURkLRQX","placeholder":"请留下你宝贵的意见吧~","meta":["nick"],"recordIP":true,"visitor":true,"enableQQ":true}')
+  var config = JSON.parse('{"enable":true,"appId":"Pf8zCXGEH1qsprnWfikVVujL-gzGzoHsz","appKey":"qOqoiUHhH1TGtLRUYURkLRQX","placeholder":"Silakan tinggalkan komentar Anda yang berharga~","meta":["nick"],"recordIP":true,"visitor":true,"enableQQ":true}')
   new Valine({
     el: '#vcomments',
     appId: config.appId,
@@ -518,7 +518,7 @@ pre:active {
       <div class="main-right-wrapper"><div class="main-right">
   <div class="main-right--board">
     <div class="main-right--title">
-      <h5>公告栏</h5>
+      <h5>Papan pengumuman</h5>
       <i class="iconfont icon-gonggao"></i>
     </div>
     <style>
@@ -644,7 +644,7 @@ pre:active {
   </div>
   <script type="text/javascript">$(function () { var max_num = 4; var time_stop = 4250; var time_swap = 1250; var num = 0; var chosen_circle_color = "#0aa1ed"; var chosen_not_circle_color = "#ffffff"; function every_thing() { $("#div_img").animate({ left: -$(".every_img").eq(0).width() * num }, time_swap); $(".every_circle").eq(num).css("background", chosen_circle_color).siblings('li').css("background", chosen_not_circle_color); } function Right_move() { if (num >= max_num) { num = 0; } else { num++; } every_thing(); } function Left_move() { if (num === 0) { num = max_num; } else { num--; } every_thing(); } $(".every_circle").eq(0).css("background", chosen_circle_color); $("#div_img").width($('.every_img').length * $('.every_img').eq(0).width()); var id = setInterval(Right_move, time_stop); $("#carousel_main").mouseover(function () { clearInterval(id) }); $("#carousel_main").mouseout(function () { id = setInterval(Right_move, time_stop); }); $(".left").click(function () { $("#div_img").stop(); Left_move(); }); $(".right").click(function () { $("#div_img").stop(); Right_move(); }); $(".every_circle").mouseover(function () { num = $(this).index(); $("#div_img").stop(); every_thing(); }); }); function link(jinliweili_Url, quality_target) { window.open(jinliweili_Url, quality_target);}</script>
     <div class="main-right--content">
-      Hello~大噶好。锦鲤未离。测试文字测试测试测试测试测试测试测试测试，测试测试测试测试测试测试。 
+      Halo ~ Selamat siang. Koinya tetap ada. Tes tes teks tes tes tes tes tes tes tes tes tes tes. 
     </div>
   </div>
 
@@ -653,23 +653,23 @@ pre:active {
   <div class="operate-items">
     <div class="operate-item backtop">
       <i class="iconfont icon-huidaodingbu"></i>
-      <span>回到顶部</span>
+      <span>kembali ke atas</span>
     </div>
     
     <div class="operate-item turn-comment hidden">
       <i class="iconfont icon-pinglun"></i>
-      <span>查看评论</span>
+      <span>Lihat komentar</span>
     </div>
     
   </div>
 
   <div class="main-right--site">
     <div class="main-right--power">
-      <p>Power By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>.</p>
+      <p>Ditenagai oleh <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a>.</p>
 
-      <p>Theme：<a href="">koinl.</a></p>
+      <p>Tema:<a href="">koinl.</a></p>
     </div>
-    <p class="main-right--refer"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index">信息来源于锦鲤未离</a> </p>
+    <p class="main-right--refer"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index">Informasi berasal dari Koinl</a> </p>
   </div>
 </div>
 
